@@ -1,12 +1,83 @@
+import requests
+from bs4 import BeautifulSoup
+
 class EbayListing:
-    def __init__(self, title=None, price=None):
-        self.title=title
-        self.price=price
+
+
+    def create_new(self, URL):
+        r = requests.get(URL)
+        soup = BeautifulSoup(r.content, 'html5lib') # If this line causes an error, run 'pip install html5lib' or install html5lib
+        return soup
+
+    def __init__(self, URL):
+        self.title=None
+        self.price=None
         self.quant=None
         self.shipping=None
         self.lastUpdate=None
         self.url=None
+        self.soup = self.create_new(URL)
 
+    def show_important(self):
+        print("title: " + self.title)
+        print("Price: ", self.price)
+        print("Shipping: ", self.shipping)
+        print("Quantity:", self.quant)
+        print("Last updated: ", self.lastUpdate)
+
+    def getStartCost(self, string):
+        priceStart = string.find('$')
+        new_string = string[priceStart:]            # create new string from $ to end
+        priceEnd = new_string.find('<')            # find first non dollar sign value
+        cropped_price = new_string[1:priceEnd]
+        # print("price:" + cropped_price)   
+        return cropped_price
+
+    def findTitle(self, soup):
+        title = soup.find_all('title')
+        # print(title)
+        string_title = str(title)
+        start_title = string_title.find('>')
+        end_title = string_title.find('|')
+        clipped_title = string_title[start_title+1:end_title]
+        # print(clipped_title)
+        return clipped_title
+
+    def findPrice(self, soup):
+        val = soup.find_all("span", class_="notranslate")
+        return self.getStartCost(str(val))
+
+    def findQuantity(self, soup):
+        qty = soup.find_all("span", id="qtySubTxt")
+        qty_s = str(qty)
+        for i in qty_s:
+            if i.isdigit():
+                # print("quant:" + str(i))
+                return i
+        return -1
+        # print(clip)
+
+    def findShipping(self, soup):
+        ship = soup.find_all("span", id="fshippingCost")
+        # print(ship)
+        ship_s = str(ship)
+        free = ship_s.find("FREE")
+        if free == -1:
+            return self.getStartCost(str(ship))
+        return 0
+
+    def lastUpdate(self, soup):
+        last_update = soup.find_all("div", class_="vi-desc-revHistory")
+        lu_s = str(last_update)
+        # print(lu_s)
+
+        for zone in timezone_info:
+            index = lu_s.find(zone)
+            if (index > 0):
+                f_time = datefinder.find_dates(lu_s[:index], strict=False)
+                for f in f_time:
+                    return str(f)
+        return "unable to find time"
 
 
 timezone_info = {

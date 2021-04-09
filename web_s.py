@@ -3,78 +3,10 @@ import requests
 from ebay_class import EbayListing
 from ebay_class import timezone_info
 from bs4 import BeautifulSoup
-import re,datetime
 import datefinder
-from dateutil.parser import parse
-
-listing = EbayListing()
-
-def printValues():
-    for attr, val in listing.__dict__.items():
-        print(attr + ": " + str(val))
-
-def getStartCost(string):
-    priceStart = string.find('$')
-    new_string = string[priceStart:]            # create new string from $ to end
-    priceEnd = new_string.find('<')            # find first non dollar sign value
-    cropped_price = new_string[1:priceEnd]
-    # print("price:" + cropped_price)   
-    return cropped_price
-
-def setUpSoup(listing, URL):
-    if listing:
-        listing.url = URL
-    r = requests.get(URL)
-    soup = BeautifulSoup(r.content, 'html5lib') # If this line causes an error, run 'pip install html5lib' or install html5lib
-    return soup
-# print(soup.prettify())
-
-def findTitle(soup):
-    title = soup.find_all('title')
-    print(title)
-    string_title = str(title)
-    start_title = string_title.find('>')
-    end_title = string_title.find('|')
-    clipped_title = string_title[start_title+1:end_title]
-    # print(clipped_title)
-    return clipped_title
 
 
-def findPrice(soup):
-    val = soup.find_all("span", class_="notranslate")
-    return getStartCost(str(val))
 
-def findQuantity(soup):
-    qty = soup.find_all("span", id="qtySubTxt")
-    qty_s = str(qty)
-    for i in qty_s:
-        if i.isdigit():
-            # print("quant:" + str(i))
-            return i
-    return -1
-    # print(clip)
-
-def findShipping(soup):
-    ship = soup.find_all("span", id="fshippingCost")
-    # print(ship)
-    ship_s = str(ship)
-    free = ship_s.find("FREE")
-    if free == -1:
-        return getStartCost(str(ship))
-    return 0
-
-def lastUpdate(soup):
-    last_update = soup.find_all("div", class_="vi-desc-revHistory")
-    lu_s = str(last_update)
-    # print(lu_s)
-
-    for zone in timezone_info:
-        index = lu_s.find(zone)
-        if (index > 0):
-            f_time = datefinder.find_dates(lu_s[:index], strict=False)
-            for f in f_time:
-                return str(f)
-    return "unable to find time"
 
 def main():
 
@@ -86,16 +18,16 @@ def main():
 
     sold_listing = "https://www.ebay.com/itm/2-Roy-DOC-Halladay-Philadelphia-Phillies-UNSIGNED-Sports-Illustrated-SI-NO-LABEL/232866473309?hash=item3637ec655d:g:hZAAAOSw0JFbXMei"
     url = sold_listing
-    # for url in sold_listing: 
-    soup = setUpSoup(listing, url)
-    listing.title = findTitle(soup)
-    listing.price = findPrice(soup)
-    listing.quant = findQuantity(soup)
-    listing.shipping = findShipping(soup)
-    listing.lastUpdate = lastUpdate(soup)
+    for url in list_listings: 
+        listing = EbayListing(url)
 
-    printValues()
-
+        listing.title = listing.findTitle(listing.soup)
+        listing.price = listing.findPrice(listing.soup)
+        listing.quant = listing.findQuantity(listing.soup)
+        listing.shipping = listing.findShipping(listing.soup)
+        # listing.lastUpdate = listing.lastUpdate(listing.soup)
+        listing.show_important()
+        print("")
 
 if __name__ == "__main__":
     main()
