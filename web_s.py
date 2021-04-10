@@ -5,7 +5,12 @@ from ebay_class import timezone_info
 from bs4 import BeautifulSoup
 import datefinder
 
-
+def get_listing_info(listing):
+    listing.title = listing.findTitle(listing.soup)
+    listing.price = listing.findPrice(listing.soup)
+    listing.quant = listing.findQuantity(listing.soup)
+    listing.shipping = listing.findShipping(listing.soup)
+    listing.lupdate = listing.lastUpdate(listing.soup)
 
 
 def main():
@@ -20,14 +25,10 @@ def main():
     url = sold_listing
     for url in list_listings: 
         listing = EbayListing(url)
-
-        listing.title = listing.findTitle(listing.soup)
-        listing.price = listing.findPrice(listing.soup)
-        listing.quant = listing.findQuantity(listing.soup)
-        listing.shipping = listing.findShipping(listing.soup)
-        # listing.lastUpdate = listing.lastUpdate(listing.soup)
+        get_listing_info(listing)
         listing.show_important()
         print("")
+        break
 
 if __name__ == "__main__":
     main()

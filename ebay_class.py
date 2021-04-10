@@ -1,6 +1,6 @@
 import requests
 from bs4 import BeautifulSoup
-
+import datefinder
 class EbayListing:
 
 
@@ -14,16 +14,16 @@ class EbayListing:
         self.price=None
         self.quant=None
         self.shipping=None
-        self.lastUpdate=None
+        self.lupdate=None
         self.url=None
         self.soup = self.create_new(URL)
 
     def show_important(self):
-        print("title: " + self.title)
+        print("Title: " + self.title)
         print("Price: ", self.price)
         print("Shipping: ", self.shipping)
         print("Quantity:", self.quant)
-        print("Last updated: ", self.lastUpdate)
+        print("Last updated: ", self.lupdate)
 
     def getStartCost(self, string):
         priceStart = string.find('$')
@@ -35,7 +35,7 @@ class EbayListing:
 
     def findTitle(self, soup):
         title = soup.find_all('title')
-        # print(title)
+        print(title)
         string_title = str(title)
         start_title = string_title.find('>')
         end_title = string_title.find('|')
@@ -67,15 +67,15 @@ class EbayListing:
         return 0
 
     def lastUpdate(self, soup):
-        last_update = soup.find_all("div", class_="vi-desc-revHistory")
-        lu_s = str(last_update)
+        lu = soup.find_all("div", class_="vi-desc-revHistory")
+        lu_s = str(lu)
         # print(lu_s)
-
         for zone in timezone_info:
             index = lu_s.find(zone)
             if (index > 0):
                 f_time = datefinder.find_dates(lu_s[:index], strict=False)
                 for f in f_time:
+                    print(str(f))
                     return str(f)
         return "unable to find time"
 
