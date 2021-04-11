@@ -27,12 +27,12 @@ def main():
             listing.show_important()
             print(listing.output_csv_format())
             print("")
-            break
+            # break
     else:
         listing = EbayListing()
         listing.populate_from_csv()
 
-        # listing.show_important()
+        listing.show_important()
 
 
 if __name__ == "__main__":

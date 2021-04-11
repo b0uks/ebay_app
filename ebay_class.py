@@ -43,13 +43,15 @@ class EbayListing:
         return output_list
 
     def populate_from_csv(self):  #maybe make the file name variable
-        with open('lt.csv') as csv_file:
-            csv_r = reader(csv_file, delimiter=',')
-            line_count = 0
-            for i, row in enumerate(csv_r):
-                print("row contents")
-                content = list(row[i] for i in included_cols)
-                print(content)
+        df = pd.read_csv('lt.csv', header=0)
+        # print (df)
+        for index, row in df.iterrows():
+            self.title      = row[0]
+            self.price      = row[1]
+            self.shipping   = row[2]
+            self.quant      = row[3]
+            self.lupdate    = row[4]
+            self.url        = row[5]
 
     def getStartCost(self, string):
         priceStart = string.find('$')
