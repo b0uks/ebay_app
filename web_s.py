@@ -1,9 +1,5 @@
 #This will not run on online IDE
-import requests
-from ebay_class import EbayListing
-from ebay_class import timezone_info
-from bs4 import BeautifulSoup
-import datefinder
+from ebay_class import *
 
 def get_listing_info(listing):
     listing.title = listing.findTitle(listing.soup)
@@ -23,12 +19,21 @@ def main():
 
     sold_listing = "https://www.ebay.com/itm/2-Roy-DOC-Halladay-Philadelphia-Phillies-UNSIGNED-Sports-Illustrated-SI-NO-LABEL/232866473309?hash=item3637ec655d:g:hZAAAOSw0JFbXMei"
     url = sold_listing
-    for url in list_listings: 
-        listing = EbayListing(url)
-        get_listing_info(listing)
-        listing.show_important()
-        print("")
-        break
+    
+    if (False):
+        for url in list_listings: 
+            listing = EbayListing(url)
+            get_listing_info(listing)
+            listing.show_important()
+            print(listing.output_csv_format())
+            print("")
+            break
+    else:
+        listing = EbayListing()
+        listing.populate_from_csv()
+
+        # listing.show_important()
+
 
 if __name__ == "__main__":
     main()

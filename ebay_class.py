@@ -1,15 +1,18 @@
 import requests
 from bs4 import BeautifulSoup
 import datefinder
+from csv import writer, reader
+import pandas as pd
 class EbayListing:
 
 
     def create_new(self, URL):
-        r = requests.get(URL)
-        soup = BeautifulSoup(r.content, 'html5lib') # If this line causes an error, run 'pip install html5lib' or install html5lib
-        return soup
+        if URL != None:
+            r = requests.get(URL)
+            soup = BeautifulSoup(r.content, 'html5lib') # If this line causes an error, run 'pip install html5lib' or install html5lib
+            return soup
 
-    def __init__(self, URL):
+    def __init__(self, URL=None):
         self.title=None
         self.price=None
         self.quant=None
@@ -17,6 +20,7 @@ class EbayListing:
         self.lupdate=None
         self.url=None
         self.soup = self.create_new(URL)
+        self.imp_attr=['title', 'price', 'quant', 'shipping', 'lupdate', 'url']
 
     def show_important(self):
         print("Title: " + self.title)
@@ -24,6 +28,28 @@ class EbayListing:
         print("Shipping: ", self.shipping)
         print("Quantity:", self.quant)
         print("Last updated: ", self.lupdate)
+
+    '''
+        will create a new entry at the bottom of a given CSV
+        IF no CSV file exists, it will create a new one with the given name
+    '''
+    def output_csv_format(self): 
+        output_list = [self.title, str(self.price), str(self.shipping), str(self.quant), self.lupdate, self.url]
+        # print(output_list)
+        with open('lt.csv', 'a') as f_obj:
+            writer_obj = writer(f_obj)
+            writer_obj.writerow(output_list)
+            f_obj.close()
+        return output_list
+
+    def populate_from_csv(self):  #maybe make the file name variable
+        with open('lt.csv') as csv_file:
+            csv_r = reader(csv_file, delimiter=',')
+            line_count = 0
+            for i, row in enumerate(csv_r):
+                print("row contents")
+                content = list(row[i] for i in included_cols)
+                print(content)
 
     def getStartCost(self, string):
         priceStart = string.find('$')
@@ -35,7 +61,7 @@ class EbayListing:
 
     def findTitle(self, soup):
         title = soup.find_all('title')
-        print(title)
+        # print(title)
         string_title = str(title)
         start_title = string_title.find('>')
         end_title = string_title.find('|')
@@ -75,7 +101,7 @@ class EbayListing:
             if (index > 0):
                 f_time = datefinder.find_dates(lu_s[:index], strict=False)
                 for f in f_time:
-                    print(str(f))
+                    # print(str(f))
                     return str(f)
         return "unable to find time"
 
