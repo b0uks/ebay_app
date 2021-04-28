@@ -1,6 +1,7 @@
 from selenium import webdriver
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.common.by import By
+from ebay_watchlist_class import *
 
 # driver = webdriver.Chrome()
 fp = webdriver.FirefoxProfile('/home/adam/firefox_profile')
@@ -8,7 +9,18 @@ driver = webdriver.Firefox(fp)
 driver.get('https://www.ebay.com/mye/myebay/watchlist')
 driver.maximize_window()
 
-element = WebDriverWait(driver, 20)
+watchlist_html = driver.page_source
 
-# email_address = driver.find_element_by_xpath("//span/input[@placeholder='Email or username']")
-# password = driver.find_element_by_xpath("//span/input[@placeholder='Password']")
+
+
+f = open(fname, "w")    # fname defined in watchlist class
+f.write(watchlist_html)
+f.close()
+
+
+
+# print(watchlist_html)
+
+
+
+

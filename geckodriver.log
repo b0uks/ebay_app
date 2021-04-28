@@ -49,3 +49,145 @@ JavaScript error: https://ir.ebaystatic.com/rs/c/scandal/ScandalJS-2.1.26.min.js
 JavaScript error: https://ir.ebaystatic.com/rs/c/scandal/ScandalJS-2.1.26.min.js, line 1: ReferenceError: GH is not defined
 JavaScript error: https://ir.ebaystatic.com/rs/c/scandal/ScandalJS-2.1.26.min.js, line 1: ReferenceError: GH is not defined
 JavaScript error: resource://activity-stream/lib/PersonalityProvider/PersonalityProvider.jsm, line 84: TypeError: http://%(server)s/dummy/blocklist// is not a valid URL.
+1619565049340	Marionette	INFO	Stopped listening on port 41381
+1619565058884	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile5rKr8X"
+1619565059117	Marionette	INFO	Marionette enabled
+1619565060301	Marionette	INFO	Listening on port 34965
+1619565060421	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://www.ebay.com/mye/myebay/watchlist, line 91: ReferenceError: __RAPTOR_PUBSUB is not defined
+JavaScript error: https://ir.ebaystatic.com/rs/v/10341xh50yz21mhhydueu4m5wad.js, line 1: ReferenceError: raptor is not defined
+JavaScript error: https://ir.ebaystatic.com/rs/v/s0hteylevy4bpkd12dvkd4yi5ms.js, line 41: TypeError: _plsUBTTQ is undefined
+JavaScript error: https://ir.ebaystatic.com/rs/v/rklixopfgi2d5mj0alnxg3vzzix.js, line 20: ReferenceError: jQuery is not defined
+JavaScript error: https://www.ebay.com/mye/myebay/watchlist, line 134: ReferenceError: GH is not defined
+JavaScript error: https://www.ebay.com/mye/myebay/watchlist, line 135: TypeError: Node.appendChild: Argument 1 is not an object.
+JavaScript error: https://ir.ebaystatic.com/rs/c/scandal/ScandalJS-2.1.26.min.js, line 1: ReferenceError: GH is not defined
+JavaScript error: https://ir.ebaystatic.com/rs/c/scandal/ScandalJS-2.1.26.min.js, line 1: ReferenceError: GH is not defined
+JavaScript error: https://ir.ebaystatic.com/rs/c/scandal/ScandalJS-2.1.26.min.js, line 1: ReferenceError: GH is not defined
+JavaScript error: https://ir.ebaystatic.com/rs/c/scandal/ScandalJS-2.1.26.min.js, line 1: ReferenceError: GH is not defined
+JavaScript error: https://ir.ebaystatic.com/rs/c/scandal/ScandalJS-2.1.26.min.js, line 1: ReferenceError: GH is not defined
+JavaScript error: https://ir.ebaystatic.com/rs/c/scandal/ScandalJS-2.1.26.min.js, line 1: ReferenceError: GH is not defined
+JavaScript error: https://ir.ebaystatic.com/rs/c/scandal/ScandalJS-2.1.26.min.js, line 1: ReferenceError: GH is not defined
+JavaScript error: https://ir.ebaystatic.com/rs/c/scandal/ScandalJS-2.1.26.min.js, line 1: ReferenceError: GH is not defined
+JavaScript error: https://ir.ebaystatic.com/rs/c/scandal/ScandalJS-2.1.26.min.js, line 1: ReferenceError: GH is not defined
+JavaScript error: https://ir.ebaystatic.com/rs/c/scandal/ScandalJS-2.1.26.min.js, line 1: ReferenceError: GH is not defined
+JavaScript error: https://ir.ebaystatic.com/rs/c/scandal/ScandalJS-2.1.26.min.js, line 1: ReferenceError: GH is not defined
+JavaScript error: https://ir.ebaystatic.com/rs/c/scandal/ScandalJS-2.1.26.min.js, line 1: ReferenceError: GH is not defined
+JavaScript error: https://ir.ebaystatic.com/rs/c/scandal/ScandalJS-2.1.26.min.js, line 1: ReferenceError: GH is not defined
+JavaScript error: https://ir.ebaystatic.com/rs/c/scandal/ScandalJS-2.1.26.min.js, line 1: ReferenceError: GH is not defined
+JavaScript error: https://ir.ebaystatic.com/rs/c/scandal/ScandalJS-2.1.26.min.js, line 1: ReferenceError: GH is not defined
+JavaScript error: https://ir.ebaystatic.com/rs/c/scandal/ScandalJS-2.1.26.min.js, line 1: ReferenceError: GH is not defined
+JavaScript error: https://ir.ebaystatic.com/rs/c/scandal/ScandalJS-2.1.26.min.js, line 1: ReferenceError: GH is not defined
+JavaScript error: https://ir.ebaystatic.com/rs/c/scandal/ScandalJS-2.1.26.min.js, line 1: ReferenceError: GH is not defined
+JavaScript error: https://ir.ebaystatic.com/rs/c/scandal/ScandalJS-2.1.26.min.js, line 1: ReferenceError: GH is not defined
+JavaScript error: https://ir.ebaystatic.com/rs/c/scandal/ScandalJS-2.1.26.min.js, line 1: ReferenceError: GH is not defined
+1619565918271	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile2WEOIq"
+1619565918494	Marionette	INFO	Marionette enabled
+1619565919691	Marionette	INFO	Listening on port 45069
+1619565919707	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://www.ebay.com/mye/myebay/watchlist, line 91: ReferenceError: __RAPTOR_PUBSUB is not defined
+JavaScript error: https://ir.ebaystatic.com/rs/v/10341xh50yz21mhhydueu4m5wad.js, line 1: ReferenceError: raptor is not defined
+JavaScript error: https://ir.ebaystatic.com/rs/v/s0hteylevy4bpkd12dvkd4yi5ms.js, line 41: TypeError: _plsUBTTQ is undefined
+JavaScript error: https://ir.ebaystatic.com/rs/v/rklixopfgi2d5mj0alnxg3vzzix.js, line 20: ReferenceError: jQuery is not defined
+JavaScript error: https://www.ebay.com/mye/myebay/watchlist, line 134: ReferenceError: GH is not defined
+JavaScript error: https://www.ebay.com/mye/myebay/watchlist, line 135: TypeError: Node.appendChild: Argument 1 is not an object.
+1619565935957	Marionette	INFO	Stopped listening on port 45069
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1619565942480	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileRxAziH"
+1619565942698	Marionette	INFO	Marionette enabled
+1619565943743	Marionette	INFO	Listening on port 38209
+1619565943820	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://www.ebay.com/mye/myebay/watchlist, line 91: ReferenceError: __RAPTOR_PUBSUB is not defined
+JavaScript error: https://ir.ebaystatic.com/rs/v/10341xh50yz21mhhydueu4m5wad.js, line 1: ReferenceError: raptor is not defined
+JavaScript error: https://ir.ebaystatic.com/rs/v/s0hteylevy4bpkd12dvkd4yi5ms.js, line 41: TypeError: _plsUBTTQ is undefined
+JavaScript error: https://ir.ebaystatic.com/rs/v/rklixopfgi2d5mj0alnxg3vzzix.js, line 20: ReferenceError: jQuery is not defined
+JavaScript error: https://www.ebay.com/mye/myebay/watchlist, line 134: ReferenceError: GH is not defined
+JavaScript error: https://www.ebay.com/mye/myebay/watchlist, line 135: TypeError: Node.appendChild: Argument 1 is not an object.
+JavaScript error: https://ir.ebaystatic.com/rs/c/scandal/ScandalJS-2.1.26.min.js, line 1: ReferenceError: GH is not defined
+JavaScript error: https://ir.ebaystatic.com/rs/c/scandal/ScandalJS-2.1.26.min.js, line 1: ReferenceError: GH is not defined
+JavaScript error: https://ir.ebaystatic.com/rs/c/scandal/ScandalJS-2.1.26.min.js, line 1: ReferenceError: GH is not defined
+JavaScript error: https://ir.ebaystatic.com/rs/c/scandal/ScandalJS-2.1.26.min.js, line 1: ReferenceError: GH is not defined
+JavaScript error: https://ir.ebaystatic.com/rs/c/scandal/ScandalJS-2.1.26.min.js, line 1: ReferenceError: GH is not defined
+JavaScript error: https://ir.ebaystatic.com/rs/c/scandal/ScandalJS-2.1.26.min.js, line 1: ReferenceError: GH is not defined
+JavaScript error: https://ir.ebaystatic.com/rs/c/scandal/ScandalJS-2.1.26.min.js, line 1: ReferenceError: GH is not defined
+JavaScript error: https://ir.ebaystatic.com/rs/c/scandal/ScandalJS-2.1.26.min.js, line 1: ReferenceError: GH is not defined
+JavaScript error: https://ir.ebaystatic.com/rs/c/scandal/ScandalJS-2.1.26.min.js, line 1: ReferenceError: GH is not defined
+JavaScript error: https://ir.ebaystatic.com/rs/c/scandal/ScandalJS-2.1.26.min.js, line 1: ReferenceError: GH is not defined
+JavaScript error: https://ir.ebaystatic.com/rs/c/scandal/ScandalJS-2.1.26.min.js, line 1: ReferenceError: GH is not defined
+JavaScript error: https://ir.ebaystatic.com/rs/c/scandal/ScandalJS-2.1.26.min.js, line 1: ReferenceError: GH is not defined
+JavaScript error: https://ir.ebaystatic.com/rs/c/scandal/ScandalJS-2.1.26.min.js, line 1: ReferenceError: GH is not defined
+JavaScript error: https://ir.ebaystatic.com/rs/c/scandal/ScandalJS-2.1.26.min.js, line 1: ReferenceError: GH is not defined
+JavaScript error: https://ir.ebaystatic.com/rs/c/scandal/ScandalJS-2.1.26.min.js, line 1: ReferenceError: GH is not defined
+JavaScript error: https://ir.ebaystatic.com/rs/c/scandal/ScandalJS-2.1.26.min.js, line 1: ReferenceError: GH is not defined
+JavaScript error: https://ir.ebaystatic.com/rs/c/scandal/ScandalJS-2.1.26.min.js, line 1: ReferenceError: GH is not defined
+JavaScript error: https://ir.ebaystatic.com/rs/c/scandal/ScandalJS-2.1.26.min.js, line 1: ReferenceError: GH is not defined
+JavaScript error: https://ir.ebaystatic.com/rs/c/scandal/ScandalJS-2.1.26.min.js, line 1: ReferenceError: GH is not defined
+JavaScript error: https://ir.ebaystatic.com/rs/c/scandal/ScandalJS-2.1.26.min.js, line 1: ReferenceError: GH is not defined
+JavaScript error: resource://activity-stream/lib/PersonalityProvider/PersonalityProvider.jsm, line 84: TypeError: http://%(server)s/dummy/blocklist// is not a valid URL.
+JavaScript error: resource://activity-stream/lib/PersonalityProvider/PersonalityProvider.jsm, line 84: TypeError: http://%(server)s/dummy/blocklist// is not a valid URL.
+JavaScript error: resource://activity-stream/lib/PersonalityProvider/PersonalityProvider.jsm, line 84: TypeError: http://%(server)s/dummy/blocklist// is not a valid URL.
+JavaScript error: resource://activity-stream/lib/PersonalityProvider/PersonalityProvider.jsm, line 84: TypeError: http://%(server)s/dummy/blocklist// is not a valid URL.
+JavaScript error: resource://activity-stream/lib/PersonalityProvider/PersonalityProvider.jsm, line 84: TypeError: http://%(server)s/dummy/blocklist// is not a valid URL.
+JavaScript error: resource://activity-stream/lib/PersonalityProvider/PersonalityProvider.jsm, line 84: TypeError: http://%(server)s/dummy/blocklist// is not a valid URL.
+JavaScript error: resource://activity-stream/lib/PersonalityProvider/PersonalityProvider.jsm, line 84: TypeError: http://%(server)s/dummy/blocklist// is not a valid URL.
+JavaScript error: resource://activity-stream/lib/PersonalityProvider/PersonalityProvider.jsm, line 84: TypeError: http://%(server)s/dummy/blocklist// is not a valid URL.
+JavaScript error: resource://activity-stream/lib/PersonalityProvider/PersonalityProvider.jsm, line 84: TypeError: http://%(server)s/dummy/blocklist// is not a valid URL.
+JavaScript error: resource://activity-stream/lib/PersonalityProvider/PersonalityProvider.jsm, line 84: TypeError: http://%(server)s/dummy/blocklist// is not a valid URL.
+JavaScript error: resource://activity-stream/lib/PersonalityProvider/PersonalityProvider.jsm, line 84: TypeError: http://%(server)s/dummy/blocklist// is not a valid URL.
+JavaScript error: resource://activity-stream/lib/PersonalityProvider/PersonalityProvider.jsm, line 84: TypeError: http://%(server)s/dummy/blocklist// is not a valid URL.
+JavaScript error: resource://activity-stream/lib/PersonalityProvider/PersonalityProvider.jsm, line 84: TypeError: http://%(server)s/dummy/blocklist// is not a valid URL.
+JavaScript error: resource://activity-stream/lib/PersonalityProvider/PersonalityProvider.jsm, line 84: TypeError: http://%(server)s/dummy/blocklist// is not a valid URL.
+JavaScript error: resource://activity-stream/lib/PersonalityProvider/PersonalityProvider.jsm, line 84: TypeError: http://%(server)s/dummy/blocklist// is not a valid URL.
+JavaScript error: resource://activity-stream/lib/PersonalityProvider/PersonalityProvider.jsm, line 84: TypeError: http://%(server)s/dummy/blocklist// is not a valid URL.
+JavaScript error: resource://activity-stream/lib/PersonalityProvider/PersonalityProvider.jsm, line 84: TypeError: http://%(server)s/dummy/blocklist// is not a valid URL.
+JavaScript error: resource://activity-stream/lib/PersonalityProvider/PersonalityProvider.jsm, line 84: TypeError: http://%(server)s/dummy/blocklist// is not a valid URL.
+1619583221783	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilegRk6aI"
+1619583221993	Marionette	INFO	Marionette enabled
+1619583223095	Marionette	INFO	Listening on port 43593
+1619583223122	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://www.ebay.com/mye/myebay/watchlist, line 91: ReferenceError: __RAPTOR_PUBSUB is not defined
+JavaScript error: https://ir.ebaystatic.com/rs/v/10341xh50yz21mhhydueu4m5wad.js, line 1: ReferenceError: raptor is not defined
+JavaScript error: https://ir.ebaystatic.com/rs/v/s0hteylevy4bpkd12dvkd4yi5ms.js, line 41: TypeError: _plsUBTTQ is undefined
+JavaScript error: https://ir.ebaystatic.com/rs/v/rklixopfgi2d5mj0alnxg3vzzix.js, line 20: ReferenceError: jQuery is not defined
+JavaScript error: https://www.ebay.com/mye/myebay/watchlist, line 134: ReferenceError: GH is not defined
+JavaScript error: https://www.ebay.com/mye/myebay/watchlist, line 135: TypeError: Node.appendChild: Argument 1 is not an object.
+JavaScript error: https://ir.ebaystatic.com/rs/c/scandal/ScandalJS-2.1.26.min.js, line 1: ReferenceError: GH is not defined
+JavaScript error: https://ir.ebaystatic.com/rs/c/scandal/ScandalJS-2.1.26.min.js, line 1: ReferenceError: GH is not defined
+JavaScript error: https://ir.ebaystatic.com/rs/c/scandal/ScandalJS-2.1.26.min.js, line 1: ReferenceError: GH is not defined
+JavaScript error: https://ir.ebaystatic.com/rs/c/scandal/ScandalJS-2.1.26.min.js, line 1: ReferenceError: GH is not defined
+JavaScript error: https://ir.ebaystatic.com/rs/c/scandal/ScandalJS-2.1.26.min.js, line 1: ReferenceError: GH is not defined
+JavaScript error: https://ir.ebaystatic.com/rs/c/scandal/ScandalJS-2.1.26.min.js, line 1: ReferenceError: GH is not defined
+JavaScript error: https://ir.ebaystatic.com/rs/c/scandal/ScandalJS-2.1.26.min.js, line 1: ReferenceError: GH is not defined
+JavaScript error: https://ir.ebaystatic.com/rs/c/scandal/ScandalJS-2.1.26.min.js, line 1: ReferenceError: GH is not defined
+JavaScript error: https://ir.ebaystatic.com/rs/c/scandal/ScandalJS-2.1.26.min.js, line 1: ReferenceError: GH is not defined
+JavaScript error: https://ir.ebaystatic.com/rs/c/scandal/ScandalJS-2.1.26.min.js, line 1: ReferenceError: GH is not defined
+JavaScript error: https://ir.ebaystatic.com/rs/c/scandal/ScandalJS-2.1.26.min.js, line 1: ReferenceError: GH is not defined
+JavaScript error: https://ir.ebaystatic.com/rs/c/scandal/ScandalJS-2.1.26.min.js, line 1: ReferenceError: GH is not defined
+JavaScript error: https://ir.ebaystatic.com/rs/c/scandal/ScandalJS-2.1.26.min.js, line 1: ReferenceError: GH is not defined
+JavaScript error: https://ir.ebaystatic.com/rs/c/scandal/ScandalJS-2.1.26.min.js, line 1: ReferenceError: GH is not defined
+JavaScript error: https://ir.ebaystatic.com/rs/c/scandal/ScandalJS-2.1.26.min.js, line 1: ReferenceError: GH is not defined
+JavaScript error: https://ir.ebaystatic.com/rs/c/scandal/ScandalJS-2.1.26.min.js, line 1: ReferenceError: GH is not defined
+JavaScript error: https://ir.ebaystatic.com/rs/c/scandal/ScandalJS-2.1.26.min.js, line 1: ReferenceError: GH is not defined
+JavaScript error: https://ir.ebaystatic.com/rs/c/scandal/ScandalJS-2.1.26.min.js, line 1: ReferenceError: GH is not defined
+JavaScript error: https://ir.ebaystatic.com/rs/c/scandal/ScandalJS-2.1.26.min.js, line 1: ReferenceError: GH is not defined
+JavaScript error: https://ir.ebaystatic.com/rs/c/scandal/ScandalJS-2.1.26.min.js, line 1: ReferenceError: GH is not defined
+1619583276293	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileoYUDgM"
+1619583276558	Marionette	INFO	Marionette enabled
+1619583277715	Marionette	INFO	Listening on port 46375
+1619583277747	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://www.ebay.com/mye/myebay/watchlist, line 91: ReferenceError: __RAPTOR_PUBSUB is not defined
+JavaScript error: https://ir.ebaystatic.com/rs/v/10341xh50yz21mhhydueu4m5wad.js, line 1: ReferenceError: raptor is not defined
+JavaScript error: https://ir.ebaystatic.com/rs/v/s0hteylevy4bpkd12dvkd4yi5ms.js, line 41: TypeError: _plsUBTTQ is undefined
+JavaScript error: https://ir.ebaystatic.com/rs/v/rklixopfgi2d5mj0alnxg3vzzix.js, line 20: ReferenceError: jQuery is not defined
+JavaScript error: https://www.ebay.com/mye/myebay/watchlist, line 134: ReferenceError: GH is not defined
+JavaScript error: https://www.ebay.com/mye/myebay/watchlist, line 135: TypeError: Node.appendChild: Argument 1 is not an object.
+1619583283439	Marionette	INFO	Stopped listening on port 46375
+1619583285323	Marionette	INFO	Stopped listening on port 43593
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1619583287605	Marionette	INFO	Stopped listening on port 38209
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
