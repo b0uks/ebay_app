@@ -3,6 +3,7 @@ from bs4 import BeautifulSoup
 import datefinder
 from csv import writer, reader
 import pandas as pd
+from ebay_listing_class import *
 
 fname = "c_html"
 
@@ -16,68 +17,75 @@ class EbayWatchlist:
     def __init__(self, html_file):
         self.soup = BeautifulSoup(html_file, "html.parser")
 
+    def find_listings(self):
+        get_m_items = self.soup.find("div", class_="m-items")
+        all_listings= get_m_items.findChildren("div", class_="m-item")
+        for listing in all_listings:
+            t = self.get_listing_title(listing)
+            p = self.get_listing_price(listing)
+            s = self.get_listing_shipping(listing)
+            d = self.get_listing_end_date(listing)
+            e = self.get_listing_ended(listing)
+            n = self.get_listing_note(listing)
 
-    def find_titles(self):
-        find_title = self.soup.find_all("a", class_="title")
+            currentListing = EbayListing(t, p, s, d, e, n)
+            currentListing.show_important()
+            currentListing.output_csv_format()
+            # print(dir(shipping))
 
-        for item in find_title:
-            for elem in item:
-                print(elem)   # ISOLATES THE NAME FROM ALL THE GAR
-
+    def get_listing_note(self, listing):
+        x = ""
+        note = listing.find(class_="item-ebaynotes")
+        if note:
+            n = note.findChild(class_="DEFAULT")
+            x = n.text
+        return x
 
     def get_listing_title(self, listing):
+        x = "No Title"
         title = listing.findChild(class_="hide") # get a dirty title
-        print(title.text)
+        if title and len(str(title.text)) > 3:
+            x = title.text
+        else:
+            stuff = listing.findChild(class_="title")
+            if stuff:
+                title = stuff.find('span').next_element.next_element
+                x = title
+        return x
 
     def get_listing_price(self, listing):
+        x = "No Price Found"
         price = listing.findChild(class_="BOLD") # dirty price
-        print(price.text)
+        if price:
+            x = price.text
+        return x
 
     def get_listing_shipping(self, listing):
+        x = "N/A"
         shipping = listing.findChild(class_="info-shipping")
         if shipping:
-            print(shipping.text)
-        else:
-            print("N/A")
-    
+            x = shipping.text
+        return x    
+
     def get_listing_end_date(self, listing):
+        x = "N/A"
         end_date = listing.find(class_="info-timer")
         if end_date:
             time = end_date.findChild(class_="DEFAULT")
             if time:
-                print(time.text)
-                
+                x = time.text
         else:
             end_date = listing.find(class_="info-time")
             if end_date:
                 time = end_date.findChild(class_="BOLD")
                 if time:
-                    print(time.text)
+                    x = time.text
                     
-            print("N/A")
+        return x
 
     def get_listing_ended(self, listing):
+        x = "LIVE"
         ended = listing.findChild(class_="NEGATIVE")
         if ended:
-            print(ended.text)
-        else:
-            print("LIVE")
-
-    def find_listings(self):
-        i = 0
-        get_mitems = self.soup.find("div", class_="m-items")
-        all_listings= get_mitems.findChildren("div", class_="m-item")
-        for listing in all_listings:
-            i += 1
-            self.get_listing_title(listing)
-
-            self.get_listing_price(listing)
-
-            self.get_listing_shipping(listing)
-            
-            self.get_listing_end_date(listing)
-
-            self.get_listing_ended(listing)
-            # print(dir(shipping))
-            # break
-            print('\n')
+            x = ended.text
+        return x
