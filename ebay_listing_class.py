@@ -12,14 +12,16 @@ class EbayListing:
             soup = BeautifulSoup(r.content, 'html5lib') # If this line causes an error, run 'pip install html5lib' or install html5lib
             return soup
 
-    def __init__(self, title=None, price=None, shipping=None, end_date=None, ended=None, note=None):
+    def __init__(self, title=None, price=None, shipping=None, end_date=None, ended=None, note=None, url=None):
         self.title=title
         self.price=price
         self.shipping=shipping
         self.end_date=end_date
         self.ended=ended
+        self.url = url
         self.note=note
         self.check_notes()
+        
 
 
     def check_notes(self):
@@ -35,21 +37,42 @@ class EbayListing:
         print("Shipping: ", self.shipping)
         print("End Date:", self.end_date)
         print("Ended?: ", self.ended)
+        print("URL: ", self.url)
         print("Note: ", self.note)
 
     '''
         will create a new entry at the bottom of a given CSV -- will NOT OVERWRITE it will add duplicates
         IF no CSV file exists, it will create a new one with the given name
     '''
-    def output_csv_format(self): 
+    def output_csv_format(self, file_name=None): 
+        if file_name == None:
+            file_name = no_file_name_given.csv
         output_list = [ self.title, str(self.price), str(self.shipping), 
                         str(self.end_date), self.ended, self.note ]
         # print(output_list)
-        with open('lt.csv', 'a') as f_obj:
+        with open(file_name, 'a') as f_obj:
             writer_obj = writer(f_obj)
             writer_obj.writerow(output_list)
             f_obj.close()
         return output_list
+
+
+    '''
+        will create a new entry at the bottom of a given CSV -- will NOT OVERWRITE it will add duplicates
+        IF no CSV file exists, it will create a new one with the given name
+    '''
+    def create_new_csv(self, file_name=None): 
+        if file_name == None:
+            file_name = no_file_name_given.csv
+        output_list = [ self.title, str(self.price), str(self.shipping), 
+                        str(self.end_date), self.ended, self.note ]
+        # print(output_list)
+        with open(file_name, 'w') as f_obj:
+            writer_obj = writer(f_obj)
+            writer_obj.writerow(output_list)
+            f_obj.close()
+        return output_list
+
 
     def populate_from_csv(self):  #maybe make the file name variable
         df = pd.read_csv('lt.csv', header=0)

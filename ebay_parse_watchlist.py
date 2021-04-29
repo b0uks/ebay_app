@@ -8,7 +8,7 @@ fname = "current_html"
 
 fp = get_html_file()
 
-myWatchlist = EbayWatchlist(fp)
+myWatchlist = EbayWatchlist(fp, "847j.csv")
 
 # myWatchlist.find_titles()
 myWatchlist.find_listings()

@@ -14,8 +14,10 @@ def get_html_file():
 
 class EbayWatchlist:
 
-    def __init__(self, html_file):
+    def __init__(self, html_file, csv_name=None):
         self.soup = BeautifulSoup(html_file, "html.parser")
+        self.file_name = csv_name
+        self.listings = []
 
     def find_listings(self):
         get_m_items = self.soup.find("div", class_="m-items")
@@ -27,10 +29,11 @@ class EbayWatchlist:
             d = self.get_listing_end_date(listing)
             e = self.get_listing_ended(listing)
             n = self.get_listing_note(listing)
+            l = self.get_listing_url(listing)
 
-            currentListing = EbayListing(t, p, s, d, e, n)
+            currentListing = EbayListing(t, p, s, d, e, n, l)
             currentListing.show_important()
-            currentListing.output_csv_format()
+            self.listings.append(currentListing)
             # print(dir(shipping))
 
     def get_listing_note(self, listing):
@@ -89,3 +92,7 @@ class EbayWatchlist:
         if ended:
             x = ended.text
         return x
+
+    def get_listing_url(self, listing):
+        url = listing.find('a', href=True)['href']
+        return url
