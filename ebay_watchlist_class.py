@@ -11,30 +11,71 @@ def get_html_file():
     with open(fname, "r") as f:
         return f.read()
 
-
+# all these methods get data from the watchlist, not the individual listing.
 class EbayWatchlist:
 
     def __init__(self, html_file, csv_name=None):
         self.soup = BeautifulSoup(html_file, "html.parser")
-        self.file_name = csv_name
+        self.csv_name = csv_name
         self.listings = []
 
     def find_listings(self):
         get_m_items = self.soup.find("div", class_="m-items")
+        if not get_m_items:
+            print("UNABLE TO GET M ITEMS FROM SOUP FINDING")
+            exit()
         all_listings= get_m_items.findChildren("div", class_="m-item")
         for listing in all_listings:
-            t = self.get_listing_title(listing)
-            p = self.get_listing_price(listing)
             s = self.get_listing_shipping(listing)
-            d = self.get_listing_end_date(listing)
-            e = self.get_listing_ended(listing)
+            p = self.get_listing_price(listing)
             n = self.get_listing_note(listing)
+            t = self.get_listing_title(listing)
+            
             l = self.get_listing_url(listing)
+            d = self.get_listing_end_date(listing)
+            e = self.get_listing_ended(listing, d)
 
             currentListing = EbayListing(t, p, s, d, e, n, l)
-            currentListing.show_important()
+            # currentListing.show_important()
             self.listings.append(currentListing)
             # print(dir(shipping))
+
+
+
+    def output_current_watchlist(self):
+        if self.csv_name == None:
+            csv_file = no_file_name_given.csv
+        csv_file = self.csv_name
+        header = ['TITLE', 'PRICE', 'SHIPPING', 'END_DATE', 'ENDED', 'URL', 'NOTE']
+        # print(output_list)
+        with open(csv_file, 'w') as f_obj:
+            writer_obj = writer(f_obj)
+            writer_obj.writerow(header)
+            for l in self.listings:    
+                output_list = [ str(l.title), str(l.price), str(l.shipping), 
+                                str(l.end_date), str(l.ended), l.url, l.note ]
+                writer_obj.writerow(output_list)
+            f_obj.close()
+
+    def get_csv_file_listings(self, csv_name=None):
+        if csv_name == None:
+            csv_name = self.csv_name
+        try:
+            old_listings = []
+            df = pd.read_csv(csv_name, header=0)
+            for index, row in df.iterrows():
+                listing = EbayListing()
+                listing.title      = row[0]
+                listing.price      = row[1]
+                listing.shipping   = row[2]
+                listing.end_date   = row[3]
+                listing.ended      = row[4]
+                listing.url        = row[5]
+                listing.note       = row[6]
+                old_listings.append(listing)
+            return old_listings
+        except IOError:
+            print("File not found")
 
     def get_listing_note(self, listing):
         x = ""
@@ -72,25 +113,37 @@ class EbayWatchlist:
 
     def get_listing_end_date(self, listing):
         x = "N/A"
-        end_date = listing.find(class_="info-timer")
+        end_date = listing.find(class_="info-time")
         if end_date:
-            time = end_date.findChild(class_="DEFAULT")
+            time = end_date.findChild(class_="BOLD")
             if time:
                 x = time.text
+            else:
+                x = end_date.text   #special case where info-time does not have child with time value
+
         else:
-            end_date = listing.find(class_="info-time")
+            end_date = listing.find(class_="info-timer")
             if end_date:
-                time = end_date.findChild(class_="BOLD")
+                time = end_date.findChild(class_="DEFAULT")
                 if time:
                     x = time.text
                     
         return x
 
-    def get_listing_ended(self, listing):
-        x = "LIVE"
+    def get_listing_ended(self, listing, end_date):
+        x = 'LIVE'
         ended = listing.findChild(class_="NEGATIVE")
         if ended:
-            x = ended.text
+            if ended.text == 'ENDED':
+                x = ended.text
+            else:
+                x = 'uncertain'
+                week = ["monday", 'tuesday', 'wednesday', 'thursday', 'friday', 'saturday', 'sunday']
+                for days in week:
+                    if days in str(end_date).lower():
+                        x = 'LIVE'
+                        break
+                        
         return x
 
     def get_listing_url(self, listing):

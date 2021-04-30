@@ -21,13 +21,12 @@ class EbayListing:
         self.url = url
         self.note=note
         self.check_notes()
-        
 
 
     def check_notes(self):
         if self.note:
             if str(self.note).find("out of stock") != -1:
-                self.ended = "OUT OF STOCK"
+                self.ended = "ENDED"
 
 
 
