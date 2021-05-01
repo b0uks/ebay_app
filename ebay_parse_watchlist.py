@@ -23,10 +23,11 @@ for listing in current_watchlist_enties:
 
 difference = new_set.difference(old_set)
 
+update_status = ""
+for title, ended in difference:
+    update_status += (title + " has ended\n")
 
-print(difference)
-
-
+myWatchlist.send_email_update(update_status)
 myWatchlist.output_current_watchlist()
 
 

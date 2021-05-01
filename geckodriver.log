@@ -727,3 +727,56 @@ JavaScript error: resource://activity-stream/lib/PersonalityProvider/Personality
 JavaScript error: resource://activity-stream/lib/PersonalityProvider/PersonalityProvider.jsm, line 84: TypeError: http://%(server)s/dummy/blocklist// is not a valid URL.
 JavaScript error: resource://activity-stream/lib/PersonalityProvider/PersonalityProvider.jsm, line 84: TypeError: http://%(server)s/dummy/blocklist// is not a valid URL.
 JavaScript error: resource://activity-stream/lib/PersonalityProvider/PersonalityProvider.jsm, line 84: TypeError: http://%(server)s/dummy/blocklist// is not a valid URL.
+JavaScript error: https://www.ebay.com/mye/myebay/watchlist, line 91: ReferenceError: __RAPTOR_PUBSUB is not defined
+JavaScript error: https://ir.ebaystatic.com/rs/v/10341xh50yz21mhhydueu4m5wad.js, line 1: ReferenceError: raptor is not defined
+JavaScript error: https://ir.ebaystatic.com/rs/v/s0hteylevy4bpkd12dvkd4yi5ms.js, line 41: TypeError: _plsUBTTQ is undefined
+JavaScript error: https://ir.ebaystatic.com/rs/v/rklixopfgi2d5mj0alnxg3vzzix.js, line 20: ReferenceError: jQuery is not defined
+JavaScript error: https://www.ebay.com/mye/myebay/watchlist, line 134: ReferenceError: GH is not defined
+JavaScript error: https://www.ebay.com/mye/myebay/watchlist, line 135: TypeError: Node.appendChild: Argument 1 is not an object.
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1924: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1924: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1924: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1924: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1924: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1924: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1924: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1924: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1924: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1924: TypeError: can't access dead object
+console.warn: "Failed to enumerate localStorage for host https://tpc.googlesyndication.com: SecurityError: The operation is insecure."
+console.warn: "Failed to enumerate CacheStorage for host https://tpc.googlesyndication.com: SecurityError: The operation is insecure."
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1924: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1924: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1924: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1924: TypeError: can't access dead object
+console.warn: "Failed to enumerate localStorage for host https://9f4700339ab8fe6c003e2bc8a4f963b3.safeframe.googlesyndication.com: SecurityError: The operation is insecure."
+console.warn: "Failed to enumerate CacheStorage for host https://9f4700339ab8fe6c003e2bc8a4f963b3.safeframe.googlesyndication.com: SecurityError: The operation is insecure."
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1924: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1924: TypeError: can't access dead object
+console.warn: "Failed to enumerate localStorage for host https://googleads.g.doubleclick.net: SecurityError: The operation is insecure."
+console.warn: "Failed to enumerate CacheStorage for host https://googleads.g.doubleclick.net: SecurityError: The operation is insecure."
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1924: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1924: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1924: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1924: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1924: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1924: TypeError: can't access dead object
+console.warn: "Failed to enumerate localStorage for host https://tpc.googlesyndication.com: SecurityError: The operation is insecure."
+console.warn: "Failed to enumerate CacheStorage for host https://tpc.googlesyndication.com: SecurityError: The operation is insecure."
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1924: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1924: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1924: TypeError: can't access dead object
+JavaScript error: resource://devtools/server/actors/targets/browsing-context.js, line 1924: TypeError: can't access dead object
+JavaScript error: https://ir.ebaystatic.com/rs/c/scandal/ScandalJS-2.1.26.min.js, line 1: ReferenceError: GH is not defined
+JavaScript error: https://ir.ebaystatic.com/rs/c/scandal/ScandalJS-2.1.26.min.js, line 1: ReferenceError: GH is not defined
+JavaScript error: https://ir.ebaystatic.com/rs/c/scandal/ScandalJS-2.1.26.min.js, line 1: ReferenceError: GH is not defined
+JavaScript error: https://ir.ebaystatic.com/rs/c/scandal/ScandalJS-2.1.26.min.js, line 1: ReferenceError: GH is not defined
+JavaScript error: https://ir.ebaystatic.com/rs/c/scandal/ScandalJS-2.1.26.min.js, line 1: ReferenceError: GH is not defined
+JavaScript error: https://ir.ebaystatic.com/rs/c/scandal/ScandalJS-2.1.26.min.js, line 1: ReferenceError: GH is not defined
+JavaScript error: https://ir.ebaystatic.com/rs/c/scandal/ScandalJS-2.1.26.min.js, line 1: ReferenceError: GH is not defined
+JavaScript error: https://ir.ebaystatic.com/rs/c/scandal/ScandalJS-2.1.26.min.js, line 1: ReferenceError: GH is not defined
+JavaScript error: https://ir.ebaystatic.com/rs/c/scandal/ScandalJS-2.1.26.min.js, line 1: ReferenceError: GH is not defined
+JavaScript error: https://ir.ebaystatic.com/rs/c/scandal/ScandalJS-2.1.26.min.js, line 1: ReferenceError: GH is not defined
+JavaScript error: resource://activity-stream/lib/PersonalityProvider/PersonalityProvider.jsm, line 84: TypeError: http://%(server)s/dummy/blocklist// is not a valid URL.
+JavaScript error: resource://activity-stream/lib/PersonalityProvider/PersonalityProvider.jsm, line 84: TypeError: http://%(server)s/dummy/blocklist// is not a valid URL.
+JavaScript error: resource://activity-stream/lib/PersonalityProvider/PersonalityProvider.jsm, line 84: TypeError: http://%(server)s/dummy/blocklist// is not a valid URL.

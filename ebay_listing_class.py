@@ -29,7 +29,6 @@ class EbayListing:
                 self.ended = "ENDED"
 
 
-
     def show_important(self):
         print("Title: " + self.title)
         print("Price: ", self.price)

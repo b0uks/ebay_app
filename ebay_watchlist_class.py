@@ -4,7 +4,8 @@ import datefinder
 from csv import writer, reader
 import pandas as pd
 from ebay_listing_class import *
-
+import ssl, smtplib
+import SMS
 fname = "c_html"
 
 def get_html_file():
@@ -39,8 +40,6 @@ class EbayWatchlist:
             # currentListing.show_important()
             self.listings.append(currentListing)
             # print(dir(shipping))
-
-
 
     def output_current_watchlist(self):
         if self.csv_name == None:
@@ -149,3 +148,12 @@ class EbayWatchlist:
     def get_listing_url(self, listing):
         url = listing.find('a', href=True)['href']
         return url
+
+    def send_email_update(self, message):
+        port = 465
+        context = ssl.create_default_context()
+
+        with smtplib.SMTP_SSL("smtp.gmail.com", port, context=context) as server:
+            server.login(SMS.sending_email, SMS.sending_pass)
+
+            server.sendmail(SMS.sending_email, SMS.rec_email, SMS.mess + message)
