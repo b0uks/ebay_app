@@ -7,7 +7,7 @@ message = client.messages \
                 .create(
                      body="Join Earth's mightiest heroes. Like Kevin Bacon.",
                      from_= SMS.twilio_from,
-                     to='+18472194804'
+                     to= SMS.my_phone
                  )
 
 print(message.sid)
