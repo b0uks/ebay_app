@@ -1,0 +1,90 @@
+from selenium import webdriver
+from selenium.webdriver.support.ui import WebDriverWait
+from selenium.webdriver.common.by import By
+from ebay_watchlist_class import *
+import sys
+import time
+
+watchlist_url = 'https://www.ebay.com/mye/myebay/watchlist?custom_list_id=WATCH_LIST&page=1&items_per_page=10'
+
+def sel_driver():
+    fp = webdriver.FirefoxProfile('/home/adam/firefox_profile')
+    driver = webdriver.Firefox(fp)
+    driver.get(watchlist_url)
+    driver.maximize_window()
+    return driver
+
+def get_page_html(driver):
+    watchlist_html = driver.page_source
+    print('page url: ' + driver.current_url)
+    return watchlist_html
+
+def write_out_html(fname, wl_html):
+    f = open(fname, "w")    # fname defined in watchlist class
+    f.write(wl_html)
+    f.close()
+
+def get_next_page(web_driver):
+    try:
+        el = web_driver.find_element_by_xpath("//a[@class='pagination__next icon-link m-pagination__control']")
+        print(el)
+        time.sleep(2)
+        el.click()
+        time.sleep(2)
+
+        return True             
+    except:
+        print("unable to find next page button")
+        return False
+
+
+
+def main():
+    print("hello world")
+    d = sel_driver()
+    counter = 0
+    user_input(d)
+
+    html = get_page_html(d)
+    write_out_html(fname + str(counter), html)
+
+    while get_next_page(d):
+        counter += 1
+        html = get_page_html(d)
+        write_out_html(fname + str(counter), html)
+
+    user_input(d)
+
+
+
+def user_input(driver):
+    for line in sys.stdin:
+        if 'c' == line.rstrip():
+            break
+        if 'q' == line.rstrip():
+            driver.close()
+            break
+        if 'r' == line.rstrip():
+            driver.refresh()
+        if 't' == line.rstrip():
+            watchlist_html = driver.page_source
+            print(driver.current_url)
+            f = open(fname, "w")    # fname defined in watchlist class
+            f.write(watchlist_html)
+            f.close()
+        if 'n' == line.rstrip():                # "m-pagination__container"
+            print("N")
+            try:
+                el = driver.find_element_by_xpath("//a[@class='pagination__next icon-link m-pagination__control']")
+                print(el)
+                time.sleep(5)
+                el.click()
+                f = open(fname, "w")    # fname defined in watchlist class
+                f.write(watchlist_html)
+                f.close()                
+            except:
+                print("unable to find next page button")
+
+
+if __name__ == "__main__":
+    main()

@@ -8,6 +8,7 @@ import ssl, smtplib
 import SMS
 fname = "c_html"
 
+#TODO comment this out once we get the other program running
 def get_html_file():
     with open(fname, "r") as f:
         return f.read()
@@ -18,7 +19,21 @@ class EbayWatchlist:
     def __init__(self, html_file, csv_name=None):
         self.soup = BeautifulSoup(html_file, "html.parser")
         self.csv_name = csv_name
+        if self.csv_name == None:
+            self.csv_file = no_file_name_given.csv
         self.listings = []
+        self.pages = self.watchlist_pages()
+
+    def watchlist_pages(self):
+        pages = []
+        pagenation_class = self.soup.find(class_="pagination__items")
+        if pagenation_class:
+            for count, child in enumerate(pagenation_class.children):
+                print(count)
+
+    def change_html_file(self, html_file):
+        self.soup = BeautifulSoup(html_file, "html.parser")
+
 
     def find_listings(self):
         get_m_items = self.soup.find("div", class_="m-items")
@@ -41,15 +56,16 @@ class EbayWatchlist:
             self.listings.append(currentListing)
             # print(dir(shipping))
 
-    def output_current_watchlist(self):
-        if self.csv_name == None:
-            csv_file = no_file_name_given.csv
+    # MODE refers to either read or write or append, one letter only 'w', 'a', 'r'.
+    def output_current_watchlist(self, mode):
         csv_file = self.csv_name
         header = ['TITLE', 'PRICE', 'SHIPPING', 'END_DATE', 'ENDED', 'URL', 'NOTE']
         # print(output_list)
-        with open(csv_file, 'w') as f_obj:
+        with open(csv_file, mode) as f_obj:
             writer_obj = writer(f_obj)
-            writer_obj.writerow(header)
+            file_size = 0
+            if mode == 'w':
+                writer_obj.writerow(header)
             for l in self.listings:    
                 output_list = [ str(l.title), str(l.price), str(l.shipping), 
                                 str(l.end_date), str(l.ended), l.url, l.note ]

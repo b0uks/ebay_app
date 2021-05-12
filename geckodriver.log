@@ -780,3 +780,741 @@ JavaScript error: https://ir.ebaystatic.com/rs/c/scandal/ScandalJS-2.1.26.min.js
 JavaScript error: resource://activity-stream/lib/PersonalityProvider/PersonalityProvider.jsm, line 84: TypeError: http://%(server)s/dummy/blocklist// is not a valid URL.
 JavaScript error: resource://activity-stream/lib/PersonalityProvider/PersonalityProvider.jsm, line 84: TypeError: http://%(server)s/dummy/blocklist// is not a valid URL.
 JavaScript error: resource://activity-stream/lib/PersonalityProvider/PersonalityProvider.jsm, line 84: TypeError: http://%(server)s/dummy/blocklist// is not a valid URL.
+console.warn: "Inspector destroyed while executing onReflow callback"
+Gdk-Message: 13:52:42.914: firefox: Fatal IO error 0 (Success) on X server :0.
+
+Exiting due to channel error.
+1620060402986	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileG0TXbC"
+1620060403564	Marionette	INFO	Marionette enabled
+1620060404919	Marionette	INFO	Listening on port 46839
+1620060405034	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://activity-stream/lib/PersonalityProvider/PersonalityProvider.jsm, line 84: TypeError: http://%(server)s/dummy/blocklist// is not a valid URL.
+1620060408950	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+JavaScript error: https://www.ebay.com/mye/myebay/watchlist, line 91: ReferenceError: __RAPTOR_PUBSUB is not defined
+JavaScript error: https://ir.ebaystatic.com/rs/v/10341xh50yz21mhhydueu4m5wad.js, line 1: ReferenceError: raptor is not defined
+JavaScript error: https://ir.ebaystatic.com/rs/v/s0hteylevy4bpkd12dvkd4yi5ms.js, line 41: TypeError: _plsUBTTQ is undefined
+JavaScript error: https://ir.ebaystatic.com/rs/v/rklixopfgi2d5mj0alnxg3vzzix.js, line 20: ReferenceError: jQuery is not defined
+JavaScript error: https://www.ebay.com/mye/myebay/watchlist, line 134: ReferenceError: GH is not defined
+JavaScript error: https://www.ebay.com/mye/myebay/watchlist, line 135: TypeError: Node.appendChild: Argument 1 is not an object.
+JavaScript error: https://www.ebay.com/mye/myebay/watchlist?custom_list_id=WATCH_LIST&page=3, line 91: ReferenceError: __RAPTOR_PUBSUB is not defined
+JavaScript error: https://ir.ebaystatic.com/rs/v/10341xh50yz21mhhydueu4m5wad.js, line 1: ReferenceError: raptor is not defined
+JavaScript error: https://ir.ebaystatic.com/rs/v/s0hteylevy4bpkd12dvkd4yi5ms.js, line 41: TypeError: _plsUBTTQ is undefined
+JavaScript error: https://ir.ebaystatic.com/rs/v/rklixopfgi2d5mj0alnxg3vzzix.js, line 20: ReferenceError: jQuery is not defined
+JavaScript error: https://www.ebay.com/mye/myebay/watchlist?custom_list_id=WATCH_LIST&page=3, line 134: ReferenceError: GH is not defined
+JavaScript error: https://www.ebay.com/mye/myebay/watchlist?custom_list_id=WATCH_LIST&page=3, line 135: TypeError: Node.appendChild: Argument 1 is not an object.
+JavaScript error: https://www.ebay.com/mye/myebay/watchlist?custom_list_id=WATCH_LIST&page=4, line 91: ReferenceError: __RAPTOR_PUBSUB is not defined
+JavaScript error: https://ir.ebaystatic.com/rs/v/10341xh50yz21mhhydueu4m5wad.js, line 1: ReferenceError: raptor is not defined
+JavaScript error: https://ir.ebaystatic.com/rs/v/s0hteylevy4bpkd12dvkd4yi5ms.js, line 41: TypeError: _plsUBTTQ is undefined
+JavaScript error: https://ir.ebaystatic.com/rs/v/rklixopfgi2d5mj0alnxg3vzzix.js, line 20: ReferenceError: jQuery is not defined
+JavaScript error: https://www.ebay.com/mye/myebay/watchlist?custom_list_id=WATCH_LIST&page=4, line 134: ReferenceError: GH is not defined
+JavaScript error: https://www.ebay.com/mye/myebay/watchlist?custom_list_id=WATCH_LIST&page=4, line 135: TypeError: Node.appendChild: Argument 1 is not an object.
+JavaScript error: https://www.ebay.com/mye/myebay/watchlist?custom_list_id=WATCH_LIST&page=1&items_per_page=100, line 91: ReferenceError: __RAPTOR_PUBSUB is not defined
+JavaScript error: https://ir.ebaystatic.com/rs/v/10341xh50yz21mhhydueu4m5wad.js, line 1: ReferenceError: raptor is not defined
+JavaScript error: https://ir.ebaystatic.com/rs/v/s0hteylevy4bpkd12dvkd4yi5ms.js, line 41: TypeError: _plsUBTTQ is undefined
+JavaScript error: https://ir.ebaystatic.com/rs/v/rklixopfgi2d5mj0alnxg3vzzix.js, line 20: ReferenceError: jQuery is not defined
+JavaScript error: https://www.ebay.com/mye/myebay/watchlist?custom_list_id=WATCH_LIST&page=1&items_per_page=100, line 134: ReferenceError: GH is not defined
+JavaScript error: https://www.ebay.com/mye/myebay/watchlist?custom_list_id=WATCH_LIST&page=1&items_per_page=100, line 135: TypeError: Node.appendChild: Argument 1 is not an object.
+JavaScript error: resource://activity-stream/lib/PersonalityProvider/PersonalityProvider.jsm, line 84: TypeError: http://%(server)s/dummy/blocklist// is not a valid URL.
+JavaScript error: resource://activity-stream/lib/PersonalityProvider/PersonalityProvider.jsm, line 84: TypeError: http://%(server)s/dummy/blocklist// is not a valid URL.
+1620072163388	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+JavaScript error: , line 0: InvalidStateError: An attempt was made to use an object that is not, or is no longer, usable
+JavaScript error: https://www.ebay.com/mye/myebay/watchlist?custom_list_id=WATCH_LIST&page=2&items_per_page=25, line 91: ReferenceError: __RAPTOR_PUBSUB is not defined
+JavaScript error: https://ir.ebaystatic.com/rs/v/10341xh50yz21mhhydueu4m5wad.js, line 1: ReferenceError: raptor is not defined
+JavaScript error: https://ir.ebaystatic.com/rs/v/s0hteylevy4bpkd12dvkd4yi5ms.js, line 41: TypeError: _plsUBTTQ is undefined
+JavaScript error: https://ir.ebaystatic.com/rs/v/rklixopfgi2d5mj0alnxg3vzzix.js, line 20: ReferenceError: jQuery is not defined
+JavaScript error: https://www.ebay.com/mye/myebay/watchlist?custom_list_id=WATCH_LIST&page=2&items_per_page=25, line 134: ReferenceError: GH is not defined
+JavaScript error: https://www.ebay.com/mye/myebay/watchlist?custom_list_id=WATCH_LIST&page=2&items_per_page=25, line 135: TypeError: Node.appendChild: Argument 1 is not an object.
+console.error: "Error while calling actor 'layout's method 'getGrids'" "node is null"
+console.error: (new TypeError("node is null", "resource://devtools/server/actors/layout.js", 502))
+JavaScript error: https://www.ebay.com/mye/myebay/watchlist?custom_list_id=WATCH_LIST&page=3&items_per_page=25, line 91: ReferenceError: __RAPTOR_PUBSUB is not defined
+JavaScript error: https://ir.ebaystatic.com/rs/v/10341xh50yz21mhhydueu4m5wad.js, line 1: ReferenceError: raptor is not defined
+JavaScript error: https://ir.ebaystatic.com/rs/v/s0hteylevy4bpkd12dvkd4yi5ms.js, line 41: TypeError: _plsUBTTQ is undefined
+JavaScript error: https://ir.ebaystatic.com/rs/v/rklixopfgi2d5mj0alnxg3vzzix.js, line 20: ReferenceError: jQuery is not defined
+JavaScript error: https://www.ebay.com/mye/myebay/watchlist?custom_list_id=WATCH_LIST&page=3&items_per_page=25, line 134: ReferenceError: GH is not defined
+JavaScript error: https://www.ebay.com/mye/myebay/watchlist?custom_list_id=WATCH_LIST&page=3&items_per_page=25, line 135: TypeError: Node.appendChild: Argument 1 is not an object.
+JavaScript error: https://www.ebay.com/mye/myebay/watchlist?custom_list_id=WATCH_LIST&page=4&items_per_page=25, line 91: ReferenceError: __RAPTOR_PUBSUB is not defined
+JavaScript error: https://ir.ebaystatic.com/rs/v/10341xh50yz21mhhydueu4m5wad.js, line 1: ReferenceError: raptor is not defined
+JavaScript error: https://ir.ebaystatic.com/rs/v/s0hteylevy4bpkd12dvkd4yi5ms.js, line 41: TypeError: _plsUBTTQ is undefined
+JavaScript error: https://ir.ebaystatic.com/rs/v/rklixopfgi2d5mj0alnxg3vzzix.js, line 20: ReferenceError: jQuery is not defined
+JavaScript error: https://www.ebay.com/mye/myebay/watchlist?custom_list_id=WATCH_LIST&page=4&items_per_page=25, line 134: ReferenceError: GH is not defined
+JavaScript error: https://www.ebay.com/mye/myebay/watchlist?custom_list_id=WATCH_LIST&page=4&items_per_page=25, line 135: TypeError: Node.appendChild: Argument 1 is not an object.
+JavaScript error: https://www.ebay.com/mye/myebay/watchlist?custom_list_id=WATCH_LIST&page=5&items_per_page=25, line 91: ReferenceError: __RAPTOR_PUBSUB is not defined
+JavaScript error: https://ir.ebaystatic.com/rs/v/10341xh50yz21mhhydueu4m5wad.js, line 1: ReferenceError: raptor is not defined
+JavaScript error: https://ir.ebaystatic.com/rs/v/s0hteylevy4bpkd12dvkd4yi5ms.js, line 41: TypeError: _plsUBTTQ is undefined
+JavaScript error: https://ir.ebaystatic.com/rs/v/rklixopfgi2d5mj0alnxg3vzzix.js, line 20: ReferenceError: jQuery is not defined
+JavaScript error: https://www.ebay.com/mye/myebay/watchlist?custom_list_id=WATCH_LIST&page=5&items_per_page=25, line 134: ReferenceError: GH is not defined
+JavaScript error: https://www.ebay.com/mye/myebay/watchlist?custom_list_id=WATCH_LIST&page=5&items_per_page=25, line 135: TypeError: Node.appendChild: Argument 1 is not an object.
+console.error: "Error while calling actor 'layout's method 'getGrids'" "node is null"
+console.error: (new TypeError("node is null", "resource://devtools/server/actors/layout.js", 502))
+JavaScript error: https://www.ebay.com/mye/myebay/watchlist?custom_list_id=WATCH_LIST&page=6&items_per_page=25, line 91: ReferenceError: __RAPTOR_PUBSUB is not defined
+JavaScript error: https://ir.ebaystatic.com/rs/v/10341xh50yz21mhhydueu4m5wad.js, line 1: ReferenceError: raptor is not defined
+JavaScript error: https://ir.ebaystatic.com/rs/v/s0hteylevy4bpkd12dvkd4yi5ms.js, line 41: TypeError: _plsUBTTQ is undefined
+JavaScript error: https://ir.ebaystatic.com/rs/v/rklixopfgi2d5mj0alnxg3vzzix.js, line 20: ReferenceError: jQuery is not defined
+JavaScript error: https://www.ebay.com/mye/myebay/watchlist?custom_list_id=WATCH_LIST&page=6&items_per_page=25, line 134: ReferenceError: GH is not defined
+JavaScript error: https://www.ebay.com/mye/myebay/watchlist?custom_list_id=WATCH_LIST&page=6&items_per_page=25, line 135: TypeError: Node.appendChild: Argument 1 is not an object.
+JavaScript error: https://ir.ebaystatic.com/rs/c/scandal/ScandalJS-2.1.26.min.js, line 1: ReferenceError: GH is not defined
+JavaScript error: https://ir.ebaystatic.com/rs/c/scandal/ScandalJS-2.1.26.min.js, line 1: ReferenceError: GH is not defined
+JavaScript error: https://ir.ebaystatic.com/rs/c/scandal/ScandalJS-2.1.26.min.js, line 1: ReferenceError: GH is not defined
+JavaScript error: https://ir.ebaystatic.com/rs/c/scandal/ScandalJS-2.1.26.min.js, line 1: ReferenceError: GH is not defined
+JavaScript error: https://ir.ebaystatic.com/rs/c/scandal/ScandalJS-2.1.26.min.js, line 1: ReferenceError: GH is not defined
+JavaScript error: https://ir.ebaystatic.com/rs/c/scandal/ScandalJS-2.1.26.min.js, line 1: ReferenceError: GH is not defined
+JavaScript error: https://ir.ebaystatic.com/rs/c/scandal/ScandalJS-2.1.26.min.js, line 1: ReferenceError: GH is not defined
+JavaScript error: https://ir.ebaystatic.com/rs/c/scandal/ScandalJS-2.1.26.min.js, line 1: ReferenceError: GH is not defined
+JavaScript error: https://ir.ebaystatic.com/rs/c/scandal/ScandalJS-2.1.26.min.js, line 1: ReferenceError: GH is not defined
+JavaScript error: https://ir.ebaystatic.com/rs/c/scandal/ScandalJS-2.1.26.min.js, line 1: ReferenceError: GH is not defined
+JavaScript error: https://www.ebay.com/mye/myebay/watchlist?custom_list_id=WATCH_LIST&page=1&items_per_page=25, line 91: ReferenceError: __RAPTOR_PUBSUB is not defined
+JavaScript error: https://ir.ebaystatic.com/rs/v/10341xh50yz21mhhydueu4m5wad.js, line 1: ReferenceError: raptor is not defined
+JavaScript error: https://ir.ebaystatic.com/rs/v/s0hteylevy4bpkd12dvkd4yi5ms.js, line 41: TypeError: _plsUBTTQ is undefined
+JavaScript error: https://ir.ebaystatic.com/rs/v/rklixopfgi2d5mj0alnxg3vzzix.js, line 20: ReferenceError: jQuery is not defined
+JavaScript error: https://www.ebay.com/mye/myebay/watchlist?custom_list_id=WATCH_LIST&page=1&items_per_page=25, line 134: ReferenceError: GH is not defined
+JavaScript error: https://www.ebay.com/mye/myebay/watchlist?custom_list_id=WATCH_LIST&page=1&items_per_page=25, line 135: TypeError: Node.appendChild: Argument 1 is not an object.
+JavaScript error: https://www.ebay.com/mye/myebay/watchlist?custom_list_id=WATCH_LIST&page=1&items_per_page=25, line 91: ReferenceError: __RAPTOR_PUBSUB is not defined
+JavaScript error: https://ir.ebaystatic.com/rs/v/10341xh50yz21mhhydueu4m5wad.js, line 1: ReferenceError: raptor is not defined
+JavaScript error: https://ir.ebaystatic.com/rs/v/s0hteylevy4bpkd12dvkd4yi5ms.js, line 41: TypeError: _plsUBTTQ is undefined
+JavaScript error: https://ir.ebaystatic.com/rs/v/rklixopfgi2d5mj0alnxg3vzzix.js, line 20: ReferenceError: jQuery is not defined
+JavaScript error: https://www.ebay.com/mye/myebay/watchlist?custom_list_id=WATCH_LIST&page=1&items_per_page=25, line 134: ReferenceError: GH is not defined
+JavaScript error: https://www.ebay.com/mye/myebay/watchlist?custom_list_id=WATCH_LIST&page=1&items_per_page=25, line 135: TypeError: Node.appendChild: Argument 1 is not an object.
+JavaScript error: https://www.ebay.com/mye/myebay/watchlist?custom_list_id=WATCH_LIST&page=2&items_per_page=25, line 91: ReferenceError: __RAPTOR_PUBSUB is not defined
+JavaScript error: https://ir.ebaystatic.com/rs/v/10341xh50yz21mhhydueu4m5wad.js, line 1: ReferenceError: raptor is not defined
+JavaScript error: https://ir.ebaystatic.com/rs/v/s0hteylevy4bpkd12dvkd4yi5ms.js, line 41: TypeError: _plsUBTTQ is undefined
+JavaScript error: https://ir.ebaystatic.com/rs/v/rklixopfgi2d5mj0alnxg3vzzix.js, line 20: ReferenceError: jQuery is not defined
+JavaScript error: https://www.ebay.com/mye/myebay/watchlist?custom_list_id=WATCH_LIST&page=2&items_per_page=25, line 134: ReferenceError: GH is not defined
+JavaScript error: https://www.ebay.com/mye/myebay/watchlist?custom_list_id=WATCH_LIST&page=2&items_per_page=25, line 135: TypeError: Node.appendChild: Argument 1 is not an object.
+JavaScript error: resource://activity-stream/lib/PersonalityProvider/PersonalityProvider.jsm, line 84: TypeError: http://%(server)s/dummy/blocklist// is not a valid URL.
+JavaScript error: https://www.ebay.com/mye/myebay/watchlist?custom_list_id=WATCH_LIST&page=1&items_per_page=25, line 91: ReferenceError: __RAPTOR_PUBSUB is not defined
+JavaScript error: https://ir.ebaystatic.com/rs/v/10341xh50yz21mhhydueu4m5wad.js, line 1: ReferenceError: raptor is not defined
+JavaScript error: https://ir.ebaystatic.com/rs/v/s0hteylevy4bpkd12dvkd4yi5ms.js, line 41: TypeError: _plsUBTTQ is undefined
+JavaScript error: https://ir.ebaystatic.com/rs/v/rklixopfgi2d5mj0alnxg3vzzix.js, line 20: ReferenceError: jQuery is not defined
+JavaScript error: https://www.ebay.com/mye/myebay/watchlist?custom_list_id=WATCH_LIST&page=1&items_per_page=25, line 134: ReferenceError: GH is not defined
+JavaScript error: https://www.ebay.com/mye/myebay/watchlist?custom_list_id=WATCH_LIST&page=1&items_per_page=25, line 135: TypeError: Node.appendChild: Argument 1 is not an object.
+console.error: "Error while calling actor 'pagestyle's method 'getLayout'" "node is null"
+console.error: (new TypeError("node is null", "resource://devtools/server/actors/page-style.js", 1002))
+console.error: "Error while calling actor 'pagestyle's method 'getApplied'" "node is null"
+console.error: (new TypeError("node is null", "resource://devtools/server/actors/page-style.js", 571))
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PMessagePort::Msg_PostMessages Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+console.error: (new Error("Protocol error (TypeError): node is null from: server0.conn0.child4/pagestyle36 (resource://devtools/server/actors/page-style.js:1002:5)", "resource://devtools/shared/protocol/Front.js", 358))
+console.error: "Error writing request: getGrids"
+JavaScript error: https://www.ebay.com/mye/myebay/watchlist?custom_list_id=WATCH_LIST&page=1&items_per_page=100, line 91: ReferenceError: __RAPTOR_PUBSUB is not defined
+JavaScript error: https://ir.ebaystatic.com/rs/v/10341xh50yz21mhhydueu4m5wad.js, line 1: ReferenceError: raptor is not defined
+JavaScript error: https://ir.ebaystatic.com/rs/v/s0hteylevy4bpkd12dvkd4yi5ms.js, line 41: TypeError: _plsUBTTQ is undefined
+JavaScript error: https://ir.ebaystatic.com/rs/v/rklixopfgi2d5mj0alnxg3vzzix.js, line 20: ReferenceError: jQuery is not defined
+JavaScript error: https://www.ebay.com/mye/myebay/watchlist?custom_list_id=WATCH_LIST&page=1&items_per_page=100, line 134: ReferenceError: GH is not defined
+JavaScript error: https://www.ebay.com/mye/myebay/watchlist?custom_list_id=WATCH_LIST&page=1&items_per_page=100, line 135: TypeError: Node.appendChild: Argument 1 is not an object.
+JavaScript error: https://ir.ebaystatic.com/rs/c/scandal/ScandalJS-2.1.26.min.js, line 1: ReferenceError: GH is not defined
+JavaScript error: https://ir.ebaystatic.com/rs/c/scandal/ScandalJS-2.1.26.min.js, line 1: ReferenceError: GH is not defined
+JavaScript error: https://ir.ebaystatic.com/rs/c/scandal/ScandalJS-2.1.26.min.js, line 1: ReferenceError: GH is not defined
+JavaScript error: https://ir.ebaystatic.com/rs/c/scandal/ScandalJS-2.1.26.min.js, line 1: ReferenceError: GH is not defined
+JavaScript error: https://ir.ebaystatic.com/rs/c/scandal/ScandalJS-2.1.26.min.js, line 1: ReferenceError: GH is not defined
+JavaScript error: https://ir.ebaystatic.com/rs/c/scandal/ScandalJS-2.1.26.min.js, line 1: ReferenceError: GH is not defined
+JavaScript error: https://ir.ebaystatic.com/rs/c/scandal/ScandalJS-2.1.26.min.js, line 1: ReferenceError: GH is not defined
+JavaScript error: https://ir.ebaystatic.com/rs/c/scandal/ScandalJS-2.1.26.min.js, line 1: ReferenceError: GH is not defined
+JavaScript error: https://ir.ebaystatic.com/rs/c/scandal/ScandalJS-2.1.26.min.js, line 1: ReferenceError: GH is not defined
+JavaScript error: https://ir.ebaystatic.com/rs/c/scandal/ScandalJS-2.1.26.min.js, line 1: ReferenceError: GH is not defined
+1620074610322	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileEha3dM"
+1620074610607	Marionette	INFO	Marionette enabled
+JavaScript error: resource://activity-stream/lib/PersonalityProvider/PersonalityProvider.jsm, line 84: TypeError: http://%(server)s/dummy/blocklist// is not a valid URL.
+1620074611656	Marionette	INFO	Listening on port 41347
+1620074611765	Marionette	WARN	TLS certificate errors will be ignored for this session
+1620074657827	Marionette	INFO	Stopped listening on port 41347
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+JavaScript error: https://support.google.com/mail/answer/7126229?p=BadCredentials&visit_id=637554826058797784-3632013697&rd=2#cantsignin, line 3876: NS_ERROR_NOT_INITIALIZED: 
+1620074663481	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilenQKHTZ"
+1620074663726	Marionette	INFO	Marionette enabled
+JavaScript error: resource://activity-stream/lib/PersonalityProvider/PersonalityProvider.jsm, line 84: TypeError: http://%(server)s/dummy/blocklist// is not a valid URL.
+1620074664750	Marionette	INFO	Listening on port 44717
+1620074664821	Marionette	WARN	TLS certificate errors will be ignored for this session
+1620074808293	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileZfrWmv"
+1620074808579	Marionette	INFO	Marionette enabled
+JavaScript error: resource://activity-stream/lib/PersonalityProvider/PersonalityProvider.jsm, line 84: TypeError: http://%(server)s/dummy/blocklist// is not a valid URL.
+1620074809637	Marionette	INFO	Listening on port 35657
+1620074809735	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://activity-stream/lib/PersonalityProvider/PersonalityProvider.jsm, line 84: TypeError: http://%(server)s/dummy/blocklist// is not a valid URL.
+JavaScript error: resource://activity-stream/lib/PersonalityProvider/PersonalityProvider.jsm, line 84: TypeError: http://%(server)s/dummy/blocklist// is not a valid URL.
+1620075175189	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilefw82R4"
+1620075175595	Marionette	INFO	Marionette enabled
+1620075176817	Marionette	INFO	Listening on port 37151
+1620075176935	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://activity-stream/lib/PersonalityProvider/PersonalityProvider.jsm, line 84: TypeError: http://%(server)s/dummy/blocklist// is not a valid URL.
+1620075190007	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilehgG7z1"
+1620075190373	Marionette	INFO	Marionette enabled
+1620075191547	Marionette	INFO	Listening on port 43923
+1620075191659	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://activity-stream/lib/PersonalityProvider/PersonalityProvider.jsm, line 84: TypeError: http://%(server)s/dummy/blocklist// is not a valid URL.
+1620075214858	Marionette	INFO	Stopped listening on port 43923
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1620075681287	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileZbbCHZ"
+1620075681673	Marionette	INFO	Marionette enabled
+JavaScript error: resource://activity-stream/lib/PersonalityProvider/PersonalityProvider.jsm, line 84: TypeError: http://%(server)s/dummy/blocklist// is not a valid URL.
+1620075683073	Marionette	INFO	Listening on port 39915
+1620075683141	Marionette	WARN	TLS certificate errors will be ignored for this session
+1620075702823	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilehUHNda"
+1620075703168	Marionette	INFO	Marionette enabled
+JavaScript error: resource://activity-stream/lib/PersonalityProvider/PersonalityProvider.jsm, line 84: TypeError: http://%(server)s/dummy/blocklist// is not a valid URL.
+1620075704516	Marionette	INFO	Listening on port 44773
+1620075704570	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://activity-stream/lib/PersonalityProvider/PersonalityProvider.jsm, line 84: TypeError: http://%(server)s/dummy/blocklist// is not a valid URL.
+1620076308756	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileSYTXdr"
+1620076309605	Marionette	INFO	Marionette enabled
+JavaScript error: resource://activity-stream/lib/PersonalityProvider/PersonalityProvider.jsm, line 84: TypeError: http://%(server)s/dummy/blocklist// is not a valid URL.
+1620076311005	Marionette	INFO	Listening on port 37075
+1620076311045	Marionette	WARN	TLS certificate errors will be ignored for this session
+1620076366475	Marionette	INFO	Stopped listening on port 39915
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1620076367791	Marionette	INFO	Stopped listening on port 37151
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1620076369192	Marionette	INFO	Stopped listening on port 44773
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1620076371044	Marionette	INFO	Stopped listening on port 37075
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1620076372633	Marionette	INFO	Stopped listening on port 35657
+console.error: "Tried to send a 'target-destroyed-form' event on an already destroyed actor 'watcher'"
+1620076610974	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofiles659H6"
+1620076611234	Marionette	INFO	Marionette enabled
+JavaScript error: resource://activity-stream/lib/PersonalityProvider/PersonalityProvider.jsm, line 84: TypeError: http://%(server)s/dummy/blocklist// is not a valid URL.
+1620076612491	Marionette	INFO	Listening on port 43765
+1620076612531	Marionette	WARN	TLS certificate errors will be ignored for this session
+1620076917340	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileMP1uLB"
+1620076917607	Marionette	INFO	Marionette enabled
+JavaScript error: resource://activity-stream/lib/PersonalityProvider/PersonalityProvider.jsm, line 84: TypeError: http://%(server)s/dummy/blocklist// is not a valid URL.
+1620076918843	Marionette	INFO	Listening on port 46297
+1620076918892	Marionette	WARN	TLS certificate errors will be ignored for this session
+1620077037580	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileDnmIFr"
+1620077037992	Marionette	INFO	Marionette enabled
+1620077039244	Marionette	INFO	Listening on port 37017
+1620077039340	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://activity-stream/lib/PersonalityProvider/PersonalityProvider.jsm, line 84: TypeError: http://%(server)s/dummy/blocklist// is not a valid URL.
+JavaScript error: resource://activity-stream/lib/PersonalityProvider/PersonalityProvider.jsm, line 84: TypeError: http://%(server)s/dummy/blocklist// is not a valid URL.
+1620077094373	Marionette	INFO	Stopped listening on port 37017
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1620077095586	Marionette	INFO	Stopped listening on port 46297
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1620077096592	Marionette	INFO	Stopped listening on port 43765
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1620077183140	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile4LOnCS"
+1620077183400	Marionette	INFO	Marionette enabled
+1620077184639	Marionette	INFO	Listening on port 46409
+1620077184679	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://activity-stream/lib/PersonalityProvider/PersonalityProvider.jsm, line 84: TypeError: http://%(server)s/dummy/blocklist// is not a valid URL.
+JavaScript error: resource://activity-stream/lib/PersonalityProvider/PersonalityProvider.jsm, line 84: TypeError: http://%(server)s/dummy/blocklist// is not a valid URL.
+1620078456562	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilellhop2"
+1620078456937	Marionette	INFO	Marionette enabled
+1620078458250	Marionette	INFO	Listening on port 33931
+1620078458330	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://activity-stream/lib/PersonalityProvider/PersonalityProvider.jsm, line 84: TypeError: http://%(server)s/dummy/blocklist// is not a valid URL.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1620078624782	Marionette	INFO	Stopped listening on port 33931
+1620078628617	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileEVtW1w"
+1620078628870	Marionette	INFO	Marionette enabled
+1620078630221	Marionette	INFO	Listening on port 35921
+1620078630282	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://activity-stream/lib/PersonalityProvider/PersonalityProvider.jsm, line 84: TypeError: http://%(server)s/dummy/blocklist// is not a valid URL.
+1620078681542	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+JavaScript error: https://www.ebay.com/mye/myebay/watchlist?custom_list_id=WATCH_LIST&page=1&items_per_page=100, line 91: ReferenceError: __RAPTOR_PUBSUB is not defined
+JavaScript error: https://ir.ebaystatic.com/rs/v/10341xh50yz21mhhydueu4m5wad.js, line 1: ReferenceError: raptor is not defined
+JavaScript error: https://ir.ebaystatic.com/rs/v/s0hteylevy4bpkd12dvkd4yi5ms.js, line 41: TypeError: _plsUBTTQ is undefined
+JavaScript error: https://ir.ebaystatic.com/rs/v/rklixopfgi2d5mj0alnxg3vzzix.js, line 20: ReferenceError: jQuery is not defined
+JavaScript error: https://www.ebay.com/mye/myebay/watchlist?custom_list_id=WATCH_LIST&page=1&items_per_page=100, line 134: ReferenceError: GH is not defined
+JavaScript error: https://www.ebay.com/mye/myebay/watchlist?custom_list_id=WATCH_LIST&page=1&items_per_page=100, line 135: TypeError: Node.appendChild: Argument 1 is not an object.
+1620078894965	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileT4vz6L"
+1620078895261	Marionette	INFO	Marionette enabled
+1620078896391	Marionette	INFO	Listening on port 37141
+1620078896503	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://activity-stream/lib/PersonalityProvider/PersonalityProvider.jsm, line 84: TypeError: http://%(server)s/dummy/blocklist// is not a valid URL.
+1620078901336	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+JavaScript error: https://www.ebay.com/mye/myebay/watchlist?custom_list_id=WATCH_LIST&page=1&items_per_page=100, line 91: ReferenceError: __RAPTOR_PUBSUB is not defined
+JavaScript error: https://ir.ebaystatic.com/rs/v/10341xh50yz21mhhydueu4m5wad.js, line 1: ReferenceError: raptor is not defined
+JavaScript error: https://ir.ebaystatic.com/rs/v/s0hteylevy4bpkd12dvkd4yi5ms.js, line 41: TypeError: _plsUBTTQ is undefined
+JavaScript error: https://ir.ebaystatic.com/rs/v/rklixopfgi2d5mj0alnxg3vzzix.js, line 20: ReferenceError: jQuery is not defined
+JavaScript error: https://www.ebay.com/mye/myebay/watchlist?custom_list_id=WATCH_LIST&page=1&items_per_page=100, line 134: ReferenceError: GH is not defined
+JavaScript error: https://www.ebay.com/mye/myebay/watchlist?custom_list_id=WATCH_LIST&page=1&items_per_page=100, line 135: TypeError: Node.appendChild: Argument 1 is not an object.
+1620079033149	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileQG8Zsj"
+1620079033411	Marionette	INFO	Marionette enabled
+1620079034572	Marionette	INFO	Listening on port 45285
+1620079034592	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://activity-stream/lib/PersonalityProvider/PersonalityProvider.jsm, line 84: TypeError: http://%(server)s/dummy/blocklist// is not a valid URL.
+1620079038802	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+JavaScript error: https://www.ebay.com/mye/myebay/watchlist?custom_list_id=WATCH_LIST&page=1&items_per_page=100, line 91: ReferenceError: __RAPTOR_PUBSUB is not defined
+JavaScript error: https://ir.ebaystatic.com/rs/v/10341xh50yz21mhhydueu4m5wad.js, line 1: ReferenceError: raptor is not defined
+JavaScript error: https://ir.ebaystatic.com/rs/v/s0hteylevy4bpkd12dvkd4yi5ms.js, line 41: TypeError: _plsUBTTQ is undefined
+JavaScript error: https://ir.ebaystatic.com/rs/v/rklixopfgi2d5mj0alnxg3vzzix.js, line 20: ReferenceError: jQuery is not defined
+JavaScript error: https://www.ebay.com/mye/myebay/watchlist?custom_list_id=WATCH_LIST&page=1&items_per_page=100, line 134: ReferenceError: GH is not defined
+JavaScript error: https://www.ebay.com/mye/myebay/watchlist?custom_list_id=WATCH_LIST&page=1&items_per_page=100, line 135: TypeError: Node.appendChild: Argument 1 is not an object.
+JavaScript error: resource://activity-stream/lib/PersonalityProvider/PersonalityProvider.jsm, line 84: TypeError: http://%(server)s/dummy/blocklist// is not a valid URL.
+JavaScript error: resource://devtools/shared/protocol/Front.js, line 99: Error: Connection closed, pending request to server0.conn0.watcher2, type getParentBrowsingContextID failed
+
+Request stack:
+request@resource://devtools/shared/protocol/Front.js:285:14
+generateRequestMethods/</frontProto[name]@resource://devtools/shared/protocol/Front/FrontClassWithSpec.js:46:19
+getBrowsingContextTarget@resource://devtools/client/fronts/watcher.js:140:48
+permitUnload@chrome://global/content/elements/browser-custom-element.js:1709:21
+CanCloseWindow@chrome://browser/content/browser.js:7921:36
+WindowIsClosing@chrome://browser/content/browser.js:7938:7
+
+1620079181007	Marionette	INFO	Stopped listening on port 45285
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1620079201930	Marionette	INFO	Stopped listening on port 46409
+1620079201968	Marionette	INFO	Stopped listening on port 44717
+1620079202151	Marionette	INFO	Stopped listening on port 35921
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1620079202172	Marionette	INFO	Stopped listening on port 37141
+1620145356392	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileZDJN6h"
+1620145356621	Marionette	INFO	Marionette enabled
+JavaScript error: resource://activity-stream/lib/PersonalityProvider/PersonalityProvider.jsm, line 84: TypeError: http://%(server)s/dummy/blocklist// is not a valid URL.
+1620145357792	Marionette	INFO	Listening on port 34437
+1620145357885	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://www.ebay.com/nkfytkqtoxtljvzb.js, line 1: NS_ERROR_FAILURE: 
+1620146280185	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileivaDnT"
+1620146280479	Marionette	INFO	Marionette enabled
+JavaScript error: resource://activity-stream/lib/PersonalityProvider/PersonalityProvider.jsm, line 84: TypeError: http://%(server)s/dummy/blocklist// is not a valid URL.
+1620146281487	Marionette	INFO	Listening on port 40207
+1620146281525	Marionette	WARN	TLS certificate errors will be ignored for this session
+1620146413032	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileYy28Ls"
+1620146413296	Marionette	INFO	Marionette enabled
+JavaScript error: resource://activity-stream/lib/PersonalityProvider/PersonalityProvider.jsm, line 84: TypeError: http://%(server)s/dummy/blocklist// is not a valid URL.
+1620146414344	Marionette	INFO	Listening on port 40033
+1620146414382	Marionette	WARN	TLS certificate errors will be ignored for this session
+1620146435812	Marionette	INFO	Stopped listening on port 40033
+1620146501827	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilerbeTmZ"
+1620146502065	Marionette	INFO	Marionette enabled
+JavaScript error: resource://activity-stream/lib/PersonalityProvider/PersonalityProvider.jsm, line 84: TypeError: http://%(server)s/dummy/blocklist// is not a valid URL.
+1620146503189	Marionette	INFO	Listening on port 43911
+1620146503275	Marionette	WARN	TLS certificate errors will be ignored for this session
+1620146536035	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileJK4H28"
+1620146536431	Marionette	INFO	Marionette enabled
+JavaScript error: resource://activity-stream/lib/PersonalityProvider/PersonalityProvider.jsm, line 84: TypeError: http://%(server)s/dummy/blocklist// is not a valid URL.
+1620146537605	Marionette	INFO	Listening on port 35139
+1620146537688	Marionette	WARN	TLS certificate errors will be ignored for this session
+1620146752528	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileokk3bm"
+1620146752868	Marionette	INFO	Marionette enabled
+JavaScript error: resource://activity-stream/lib/PersonalityProvider/PersonalityProvider.jsm, line 84: TypeError: http://%(server)s/dummy/blocklist// is not a valid URL.
+1620146754014	Marionette	INFO	Listening on port 39897
+1620146754096	Marionette	WARN	TLS certificate errors will be ignored for this session
+1620146948143	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilekkL7Q4"
+1620146948529	Marionette	INFO	Marionette enabled
+JavaScript error: resource://activity-stream/lib/PersonalityProvider/PersonalityProvider.jsm, line 84: TypeError: http://%(server)s/dummy/blocklist// is not a valid URL.
+1620146949708	Marionette	INFO	Listening on port 41995
+1620146949787	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://www.ebay.com/mye/myebay/watchlist?custom_list_id=WATCH_LIST&page=1&items_per_page=100, line 91: ReferenceError: __RAPTOR_PUBSUB is not defined
+JavaScript error: https://ir.ebaystatic.com/rs/v/10341xh50yz21mhhydueu4m5wad.js, line 1: ReferenceError: raptor is not defined
+JavaScript error: https://ir.ebaystatic.com/rs/v/s0hteylevy4bpkd12dvkd4yi5ms.js, line 41: TypeError: _plsUBTTQ is undefined
+JavaScript error: https://ir.ebaystatic.com/rs/v/rklixopfgi2d5mj0alnxg3vzzix.js, line 20: ReferenceError: jQuery is not defined
+JavaScript error: https://www.ebay.com/mye/myebay/watchlist?custom_list_id=WATCH_LIST&page=1&items_per_page=100, line 134: ReferenceError: GH is not defined
+JavaScript error: https://www.ebay.com/mye/myebay/watchlist?custom_list_id=WATCH_LIST&page=1&items_per_page=100, line 135: TypeError: Node.appendChild: Argument 1 is not an object.
+1620146999884	Marionette	INFO	Stopped listening on port 40207
+1620147000829	Marionette	INFO	Stopped listening on port 34437
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1620147002048	Marionette	INFO	Stopped listening on port 43911
+1620147005238	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileO41PQ9"
+1620147005530	Marionette	INFO	Marionette enabled
+1620147006721	Marionette	INFO	Listening on port 40269
+1620147006785	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://activity-stream/lib/PersonalityProvider/PersonalityProvider.jsm, line 84: TypeError: http://%(server)s/dummy/blocklist// is not a valid URL.
+JavaScript error: https://www.ebay.com/mye/myebay/watchlist?custom_list_id=WATCH_LIST&page=1&items_per_page=100, line 91: ReferenceError: __RAPTOR_PUBSUB is not defined
+JavaScript error: https://ir.ebaystatic.com/rs/v/10341xh50yz21mhhydueu4m5wad.js, line 1: ReferenceError: raptor is not defined
+JavaScript error: https://ir.ebaystatic.com/rs/v/s0hteylevy4bpkd12dvkd4yi5ms.js, line 41: TypeError: _plsUBTTQ is undefined
+JavaScript error: https://ir.ebaystatic.com/rs/v/rklixopfgi2d5mj0alnxg3vzzix.js, line 20: ReferenceError: jQuery is not defined
+JavaScript error: https://www.ebay.com/mye/myebay/watchlist?custom_list_id=WATCH_LIST&page=1&items_per_page=100, line 134: ReferenceError: GH is not defined
+JavaScript error: https://www.ebay.com/mye/myebay/watchlist?custom_list_id=WATCH_LIST&page=1&items_per_page=100, line 135: TypeError: Node.appendChild: Argument 1 is not an object.
+JavaScript error: https://ir.ebaystatic.com/rs/c/scandal/ScandalJS-2.1.26.min.js, line 1: ReferenceError: GH is not defined
+JavaScript error: https://ir.ebaystatic.com/rs/c/scandal/ScandalJS-2.1.26.min.js, line 1: ReferenceError: GH is not defined
+JavaScript error: https://ir.ebaystatic.com/rs/c/scandal/ScandalJS-2.1.26.min.js, line 1: ReferenceError: GH is not defined
+JavaScript error: https://ir.ebaystatic.com/rs/c/scandal/ScandalJS-2.1.26.min.js, line 1: ReferenceError: GH is not defined
+JavaScript error: resource://activity-stream/lib/PersonalityProvider/PersonalityProvider.jsm, line 84: TypeError: http://%(server)s/dummy/blocklist// is not a valid URL.
+JavaScript error: https://ir.ebaystatic.com/rs/c/scandal/ScandalJS-2.1.26.min.js, line 1: ReferenceError: GH is not defined
+JavaScript error: https://ir.ebaystatic.com/rs/c/scandal/ScandalJS-2.1.26.min.js, line 1: ReferenceError: GH is not defined
+JavaScript error: https://ir.ebaystatic.com/rs/c/scandal/ScandalJS-2.1.26.min.js, line 1: ReferenceError: GH is not defined
+JavaScript error: https://ir.ebaystatic.com/rs/c/scandal/ScandalJS-2.1.26.min.js, line 1: ReferenceError: GH is not defined
+JavaScript error: https://ir.ebaystatic.com/rs/c/scandal/ScandalJS-2.1.26.min.js, line 1: ReferenceError: GH is not defined
+JavaScript error: https://ir.ebaystatic.com/rs/c/scandal/ScandalJS-2.1.26.min.js, line 1: ReferenceError: GH is not defined
+JavaScript error: resource://activity-stream/lib/PersonalityProvider/PersonalityProvider.jsm, line 84: TypeError: http://%(server)s/dummy/blocklist// is not a valid URL.
+JavaScript error: resource://activity-stream/lib/PersonalityProvider/PersonalityProvider.jsm, line 84: TypeError: http://%(server)s/dummy/blocklist// is not a valid URL.
+JavaScript error: https://ir.ebaystatic.com/rs/c/scandal/ScandalJS-2.1.26.min.js, line 1: ReferenceError: GH is not defined
+JavaScript error: https://ir.ebaystatic.com/rs/c/scandal/ScandalJS-2.1.26.min.js, line 1: ReferenceError: GH is not defined
+JavaScript error: https://ir.ebaystatic.com/rs/c/scandal/ScandalJS-2.1.26.min.js, line 1: ReferenceError: GH is not defined
+JavaScript error: https://ir.ebaystatic.com/rs/c/scandal/ScandalJS-2.1.26.min.js, line 1: ReferenceError: GH is not defined
+JavaScript error: https://ir.ebaystatic.com/rs/c/scandal/ScandalJS-2.1.26.min.js, line 1: ReferenceError: GH is not defined
+JavaScript error: https://ir.ebaystatic.com/rs/c/scandal/ScandalJS-2.1.26.min.js, line 1: ReferenceError: GH is not defined
+JavaScript error: https://ir.ebaystatic.com/rs/c/scandal/ScandalJS-2.1.26.min.js, line 1: ReferenceError: GH is not defined
+JavaScript error: https://ir.ebaystatic.com/rs/c/scandal/ScandalJS-2.1.26.min.js, line 1: ReferenceError: GH is not defined
+JavaScript error: https://ir.ebaystatic.com/rs/c/scandal/ScandalJS-2.1.26.min.js, line 1: ReferenceError: GH is not defined
+JavaScript error: https://ir.ebaystatic.com/rs/c/scandal/ScandalJS-2.1.26.min.js, line 1: ReferenceError: GH is not defined
+JavaScript error: resource://activity-stream/lib/PersonalityProvider/PersonalityProvider.jsm, line 84: TypeError: http://%(server)s/dummy/blocklist// is not a valid URL.
+JavaScript error: resource://activity-stream/lib/PersonalityProvider/PersonalityProvider.jsm, line 84: TypeError: http://%(server)s/dummy/blocklist// is not a valid URL.
+JavaScript error: resource://activity-stream/lib/PersonalityProvider/PersonalityProvider.jsm, line 84: TypeError: http://%(server)s/dummy/blocklist// is not a valid URL.
+JavaScript error: resource://activity-stream/lib/PersonalityProvider/PersonalityProvider.jsm, line 84: TypeError: http://%(server)s/dummy/blocklist// is not a valid URL.
+JavaScript error: resource://activity-stream/lib/PersonalityProvider/PersonalityProvider.jsm, line 84: TypeError: http://%(server)s/dummy/blocklist// is not a valid URL.
+JavaScript error: resource://activity-stream/lib/PersonalityProvider/PersonalityProvider.jsm, line 84: TypeError: http://%(server)s/dummy/blocklist// is not a valid URL.
+JavaScript error: resource://activity-stream/lib/PersonalityProvider/PersonalityProvider.jsm, line 84: TypeError: http://%(server)s/dummy/blocklist// is not a valid URL.
+JavaScript error: resource://activity-stream/lib/PersonalityProvider/PersonalityProvider.jsm, line 84: TypeError: http://%(server)s/dummy/blocklist// is not a valid URL.
+JavaScript error: resource://activity-stream/lib/PersonalityProvider/PersonalityProvider.jsm, line 84: TypeError: http://%(server)s/dummy/blocklist// is not a valid URL.
+JavaScript error: resource://activity-stream/lib/PersonalityProvider/PersonalityProvider.jsm, line 84: TypeError: http://%(server)s/dummy/blocklist// is not a valid URL.
+JavaScript error: resource://activity-stream/lib/PersonalityProvider/PersonalityProvider.jsm, line 84: TypeError: http://%(server)s/dummy/blocklist// is not a valid URL.
+JavaScript error: resource://activity-stream/lib/PersonalityProvider/PersonalityProvider.jsm, line 84: TypeError: http://%(server)s/dummy/blocklist// is not a valid URL.
+Gdk-Message: 14:02:43.898: firefox: Fatal IO error 11 (Resource temporarily unavailable) on X server :0.
+
+Gdk-Message: 14:02:43.905: firefox: Fatal IO error 11 (Resource temporarily unavailable) on X server :0.
+
+Gdk-Message: 14:02:43.906: firefox: Fatal IO error 11 (Resource temporarily unavailable) on X server :0.
+
+Gdk-Message: 14:02:43.906: /usr/lib/firefox/firefox: Fatal IO error 11 (Resource temporarily unavailable) on X server :0.
+
+Gdk-Message: 14:02:43.905: /usr/lib/firefox/firefox: Fatal IO error 11 (Resource temporarily unavailable) on X server :0.
+
+Gdk-Message: 14:02:43.913: firefox: Fatal IO error 11 (Resource temporarily unavailable) on X server :0.
+
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Sandbox: Unexpected EOF, op 0 flags 02000000 path /etc/localtime
+Gdk-Message: 19:02:43.913: /usr/lib/firefox/firefox: Fatal IO error 11 (Resource temporarily unavailable) on X server :0.
+
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1620497668549	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofiletXDknm"
+1620497669145	Marionette	INFO	Marionette enabled
+JavaScript error: https://www.ebay.com/mye/myebay/watchlist, line 91: ReferenceError: __RAPTOR_PUBSUB is not defined
+JavaScript error: https://ir.ebaystatic.com/rs/v/10341xh50yz21mhhydueu4m5wad.js, line 1: ReferenceError: raptor is not defined
+JavaScript error: https://ir.ebaystatic.com/rs/v/s0hteylevy4bpkd12dvkd4yi5ms.js, line 41: TypeError: _plsUBTTQ is undefined
+JavaScript error: https://ir.ebaystatic.com/rs/v/rklixopfgi2d5mj0alnxg3vzzix.js, line 20: ReferenceError: jQuery is not defined
+JavaScript error: https://www.ebay.com/mye/myebay/watchlist, line 134: ReferenceError: GH is not defined
+JavaScript error: https://www.ebay.com/mye/myebay/watchlist, line 135: TypeError: Node.appendChild: Argument 1 is not an object.
+1620497670756	Marionette	INFO	Listening on port 39453
+1620497670803	Marionette	WARN	TLS certificate errors will be ignored for this session
+1620497670977	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript error: resource://activity-stream/lib/PersonalityProvider/PersonalityProvider.jsm, line 84: TypeError: http://%(server)s/dummy/blocklist// is not a valid URL.
+JavaScript error: https://www.ebay.com/mye/myebay/watchlist?custom_list_id=WATCH_LIST&page=1&items_per_page=100, line 91: ReferenceError: __RAPTOR_PUBSUB is not defined
+JavaScript error: https://ir.ebaystatic.com/rs/v/10341xh50yz21mhhydueu4m5wad.js, line 1: ReferenceError: raptor is not defined
+JavaScript error: https://ir.ebaystatic.com/rs/v/s0hteylevy4bpkd12dvkd4yi5ms.js, line 41: TypeError: _plsUBTTQ is undefined
+JavaScript error: https://ir.ebaystatic.com/rs/v/rklixopfgi2d5mj0alnxg3vzzix.js, line 20: ReferenceError: jQuery is not defined
+JavaScript error: https://www.ebay.com/mye/myebay/watchlist?custom_list_id=WATCH_LIST&page=1&items_per_page=100, line 134: ReferenceError: GH is not defined
+JavaScript error: https://www.ebay.com/mye/myebay/watchlist?custom_list_id=WATCH_LIST&page=1&items_per_page=100, line 135: TypeError: Node.appendChild: Argument 1 is not an object.
+JavaScript error: https://ir.ebaystatic.com/rs/c/scandal/ScandalJS-2.1.26.min.js, line 1: ReferenceError: GH is not defined
+JavaScript error: https://ir.ebaystatic.com/rs/c/scandal/ScandalJS-2.1.26.min.js, line 1: ReferenceError: GH is not defined
+JavaScript error: https://ir.ebaystatic.com/rs/c/scandal/ScandalJS-2.1.26.min.js, line 1: ReferenceError: GH is not defined
+JavaScript error: https://ir.ebaystatic.com/rs/c/scandal/ScandalJS-2.1.26.min.js, line 1: ReferenceError: GH is not defined
+JavaScript error: https://ir.ebaystatic.com/rs/c/scandal/ScandalJS-2.1.26.min.js, line 1: ReferenceError: GH is not defined
+JavaScript error: https://ir.ebaystatic.com/rs/c/scandal/ScandalJS-2.1.26.min.js, line 1: ReferenceError: GH is not defined
+JavaScript error: https://ir.ebaystatic.com/rs/c/scandal/ScandalJS-2.1.26.min.js, line 1: ReferenceError: GH is not defined
+JavaScript error: https://ir.ebaystatic.com/rs/c/scandal/ScandalJS-2.1.26.min.js, line 1: ReferenceError: GH is not defined
+JavaScript error: https://ir.ebaystatic.com/rs/c/scandal/ScandalJS-2.1.26.min.js, line 1: ReferenceError: GH is not defined
+JavaScript error: https://ir.ebaystatic.com/rs/c/scandal/ScandalJS-2.1.26.min.js, line 1: ReferenceError: GH is not defined
+JavaScript error: resource://activity-stream/lib/PersonalityProvider/PersonalityProvider.jsm, line 84: TypeError: http://%(server)s/dummy/blocklist// is not a valid URL.
+JavaScript error: https://ir.ebaystatic.com/rs/c/scandal/ScandalJS-2.1.26.min.js, line 1: ReferenceError: GH is not defined
+JavaScript error: https://ir.ebaystatic.com/rs/c/scandal/ScandalJS-2.1.26.min.js, line 1: ReferenceError: GH is not defined
+JavaScript error: https://ir.ebaystatic.com/rs/c/scandal/ScandalJS-2.1.26.min.js, line 1: ReferenceError: GH is not defined
+JavaScript error: https://ir.ebaystatic.com/rs/c/scandal/ScandalJS-2.1.26.min.js, line 1: ReferenceError: GH is not defined
+JavaScript error: https://ir.ebaystatic.com/rs/c/scandal/ScandalJS-2.1.26.min.js, line 1: ReferenceError: GH is not defined
+JavaScript error: https://ir.ebaystatic.com/rs/c/scandal/ScandalJS-2.1.26.min.js, line 1: ReferenceError: GH is not defined
+JavaScript error: https://ir.ebaystatic.com/rs/c/scandal/ScandalJS-2.1.26.min.js, line 1: ReferenceError: GH is not defined
+JavaScript error: https://ir.ebaystatic.com/rs/c/scandal/ScandalJS-2.1.26.min.js, line 1: ReferenceError: GH is not defined
+JavaScript error: https://ir.ebaystatic.com/rs/c/scandal/ScandalJS-2.1.26.min.js, line 1: ReferenceError: GH is not defined
+JavaScript error: https://ir.ebaystatic.com/rs/c/scandal/ScandalJS-2.1.26.min.js, line 1: ReferenceError: GH is not defined
+JavaScript error: resource://activity-stream/lib/PersonalityProvider/PersonalityProvider.jsm, line 84: TypeError: http://%(server)s/dummy/blocklist// is not a valid URL.
+1620500122202	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileciwAu8"
+1620500122426	Marionette	INFO	Marionette enabled
+JavaScript error: https://www.ebay.com/mye/myebay/watchlist, line 91: ReferenceError: __RAPTOR_PUBSUB is not defined
+JavaScript error: https://ir.ebaystatic.com/rs/v/10341xh50yz21mhhydueu4m5wad.js, line 1: ReferenceError: raptor is not defined
+JavaScript error: https://ir.ebaystatic.com/rs/v/s0hteylevy4bpkd12dvkd4yi5ms.js, line 41: TypeError: _plsUBTTQ is undefined
+JavaScript error: https://ir.ebaystatic.com/rs/v/rklixopfgi2d5mj0alnxg3vzzix.js, line 20: ReferenceError: jQuery is not defined
+JavaScript error: https://www.ebay.com/mye/myebay/watchlist, line 134: ReferenceError: GH is not defined
+JavaScript error: https://www.ebay.com/mye/myebay/watchlist, line 135: TypeError: Node.appendChild: Argument 1 is not an object.
+1620500124333	Marionette	INFO	Listening on port 36593
+1620500124410	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://activity-stream/lib/PersonalityProvider/PersonalityProvider.jsm, line 84: TypeError: http://%(server)s/dummy/blocklist// is not a valid URL.
+JavaScript error: https://www.ebay.com/mye/myebay/watchlist?custom_list_id=WATCH_LIST&page=1&items_per_page=10, line 91: ReferenceError: __RAPTOR_PUBSUB is not defined
+JavaScript error: https://ir.ebaystatic.com/rs/v/10341xh50yz21mhhydueu4m5wad.js, line 1: ReferenceError: raptor is not defined
+JavaScript error: https://ir.ebaystatic.com/rs/v/s0hteylevy4bpkd12dvkd4yi5ms.js, line 41: TypeError: _plsUBTTQ is undefined
+JavaScript error: https://ir.ebaystatic.com/rs/v/rklixopfgi2d5mj0alnxg3vzzix.js, line 20: ReferenceError: jQuery is not defined
+JavaScript error: https://www.ebay.com/mye/myebay/watchlist?custom_list_id=WATCH_LIST&page=1&items_per_page=10, line 134: ReferenceError: GH is not defined
+JavaScript error: https://www.ebay.com/mye/myebay/watchlist?custom_list_id=WATCH_LIST&page=1&items_per_page=10, line 135: TypeError: Node.appendChild: Argument 1 is not an object.
+JavaScript error: , line 0: InvalidStateError: An attempt was made to use an object that is not, or is no longer, usable
+1620500166351	Marionette	INFO	Stopped listening on port 39453
+1620500166365	Marionette	INFO	Stopped listening on port 36593
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1620500178427	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileC0dXY0"
+1620500178651	Marionette	INFO	Marionette enabled
+JavaScript error: https://www.ebay.com/mye/myebay/watchlist, line 91: ReferenceError: __RAPTOR_PUBSUB is not defined
+JavaScript error: https://ir.ebaystatic.com/rs/v/10341xh50yz21mhhydueu4m5wad.js, line 1: ReferenceError: raptor is not defined
+JavaScript error: https://ir.ebaystatic.com/rs/v/s0hteylevy4bpkd12dvkd4yi5ms.js, line 41: TypeError: _plsUBTTQ is undefined
+JavaScript error: https://ir.ebaystatic.com/rs/v/rklixopfgi2d5mj0alnxg3vzzix.js, line 20: ReferenceError: jQuery is not defined
+JavaScript error: https://www.ebay.com/mye/myebay/watchlist, line 134: ReferenceError: GH is not defined
+JavaScript error: https://www.ebay.com/mye/myebay/watchlist, line 135: TypeError: Node.appendChild: Argument 1 is not an object.
+1620500179860	Marionette	INFO	Listening on port 38989
+1620500179887	Marionette	WARN	TLS certificate errors will be ignored for this session
+1620500180117	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript error: resource://activity-stream/lib/PersonalityProvider/PersonalityProvider.jsm, line 84: TypeError: http://%(server)s/dummy/blocklist// is not a valid URL.
+JavaScript error: https://www.ebay.com/mye/myebay/watchlist?custom_list_id=WATCH_LIST&page=1&items_per_page=10, line 91: ReferenceError: __RAPTOR_PUBSUB is not defined
+JavaScript error: https://ir.ebaystatic.com/rs/v/10341xh50yz21mhhydueu4m5wad.js, line 1: ReferenceError: raptor is not defined
+JavaScript error: https://ir.ebaystatic.com/rs/v/s0hteylevy4bpkd12dvkd4yi5ms.js, line 41: TypeError: _plsUBTTQ is undefined
+JavaScript error: https://ir.ebaystatic.com/rs/v/rklixopfgi2d5mj0alnxg3vzzix.js, line 20: ReferenceError: jQuery is not defined
+JavaScript error: https://www.ebay.com/mye/myebay/watchlist?custom_list_id=WATCH_LIST&page=1&items_per_page=10, line 134: ReferenceError: GH is not defined
+JavaScript error: https://www.ebay.com/mye/myebay/watchlist?custom_list_id=WATCH_LIST&page=1&items_per_page=10, line 135: TypeError: Node.appendChild: Argument 1 is not an object.
+1620500213238	Marionette	INFO	Stopped listening on port 38989
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1620500222164	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileyUGnRy"
+1620500222430	Marionette	INFO	Marionette enabled
+JavaScript error: https://www.ebay.com/mye/myebay/watchlist, line 91: ReferenceError: __RAPTOR_PUBSUB is not defined
+JavaScript error: https://ir.ebaystatic.com/rs/v/10341xh50yz21mhhydueu4m5wad.js, line 1: ReferenceError: raptor is not defined
+JavaScript error: https://ir.ebaystatic.com/rs/v/s0hteylevy4bpkd12dvkd4yi5ms.js, line 41: TypeError: _plsUBTTQ is undefined
+JavaScript error: https://ir.ebaystatic.com/rs/v/rklixopfgi2d5mj0alnxg3vzzix.js, line 20: ReferenceError: jQuery is not defined
+JavaScript error: https://www.ebay.com/mye/myebay/watchlist, line 134: ReferenceError: GH is not defined
+JavaScript error: https://www.ebay.com/mye/myebay/watchlist, line 135: TypeError: Node.appendChild: Argument 1 is not an object.
+1620500223745	Marionette	INFO	Listening on port 36733
+1620500223829	Marionette	WARN	TLS certificate errors will be ignored for this session
+1620500223985	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript error: resource://activity-stream/lib/PersonalityProvider/PersonalityProvider.jsm, line 84: TypeError: http://%(server)s/dummy/blocklist// is not a valid URL.
+JavaScript error: https://www.ebay.com/mye/myebay/watchlist?custom_list_id=WATCH_LIST&page=1&items_per_page=10, line 91: ReferenceError: __RAPTOR_PUBSUB is not defined
+JavaScript error: https://ir.ebaystatic.com/rs/v/10341xh50yz21mhhydueu4m5wad.js, line 1: ReferenceError: raptor is not defined
+JavaScript error: https://ir.ebaystatic.com/rs/v/s0hteylevy4bpkd12dvkd4yi5ms.js, line 41: TypeError: _plsUBTTQ is undefined
+JavaScript error: https://ir.ebaystatic.com/rs/v/rklixopfgi2d5mj0alnxg3vzzix.js, line 20: ReferenceError: jQuery is not defined
+JavaScript error: https://www.ebay.com/mye/myebay/watchlist?custom_list_id=WATCH_LIST&page=1&items_per_page=10, line 134: ReferenceError: GH is not defined
+JavaScript error: https://www.ebay.com/mye/myebay/watchlist?custom_list_id=WATCH_LIST&page=1&items_per_page=10, line 135: TypeError: Node.appendChild: Argument 1 is not an object.
+1620500248375	Marionette	INFO	Stopped listening on port 36733
+1620500256757	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileRaMdEI"
+1620500257007	Marionette	INFO	Marionette enabled
+JavaScript error: https://www.ebay.com/mye/myebay/watchlist, line 91: ReferenceError: __RAPTOR_PUBSUB is not defined
+JavaScript error: https://ir.ebaystatic.com/rs/v/10341xh50yz21mhhydueu4m5wad.js, line 1: ReferenceError: raptor is not defined
+JavaScript error: https://ir.ebaystatic.com/rs/v/s0hteylevy4bpkd12dvkd4yi5ms.js, line 41: TypeError: _plsUBTTQ is undefined
+JavaScript error: https://ir.ebaystatic.com/rs/v/rklixopfgi2d5mj0alnxg3vzzix.js, line 20: ReferenceError: jQuery is not defined
+JavaScript error: https://www.ebay.com/mye/myebay/watchlist, line 134: ReferenceError: GH is not defined
+JavaScript error: https://www.ebay.com/mye/myebay/watchlist, line 135: TypeError: Node.appendChild: Argument 1 is not an object.
+1620500258287	Marionette	INFO	Listening on port 46671
+1620500258413	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://activity-stream/lib/PersonalityProvider/PersonalityProvider.jsm, line 84: TypeError: http://%(server)s/dummy/blocklist// is not a valid URL.
+JavaScript error: https://www.ebay.com/mye/myebay/watchlist?custom_list_id=WATCH_LIST&page=1&items_per_page=10, line 91: ReferenceError: __RAPTOR_PUBSUB is not defined
+JavaScript error: https://ir.ebaystatic.com/rs/v/10341xh50yz21mhhydueu4m5wad.js, line 1: ReferenceError: raptor is not defined
+JavaScript error: https://ir.ebaystatic.com/rs/v/s0hteylevy4bpkd12dvkd4yi5ms.js, line 41: TypeError: _plsUBTTQ is undefined
+JavaScript error: https://ir.ebaystatic.com/rs/v/rklixopfgi2d5mj0alnxg3vzzix.js, line 20: ReferenceError: jQuery is not defined
+JavaScript error: https://www.ebay.com/mye/myebay/watchlist?custom_list_id=WATCH_LIST&page=1&items_per_page=10, line 134: ReferenceError: GH is not defined
+JavaScript error: https://www.ebay.com/mye/myebay/watchlist?custom_list_id=WATCH_LIST&page=1&items_per_page=10, line 135: TypeError: Node.appendChild: Argument 1 is not an object.
+JavaScript error: resource://activity-stream/lib/PersonalityProvider/PersonalityProvider.jsm, line 84: TypeError: http://%(server)s/dummy/blocklist// is not a valid URL.
+JavaScript error: resource://activity-stream/lib/PersonalityProvider/PersonalityProvider.jsm, line 84: TypeError: http://%(server)s/dummy/blocklist// is not a valid URL.
+JavaScript error: resource://activity-stream/lib/PersonalityProvider/PersonalityProvider.jsm, line 84: TypeError: http://%(server)s/dummy/blocklist// is not a valid URL.
+JavaScript error: resource://activity-stream/lib/PersonalityProvider/PersonalityProvider.jsm, line 84: TypeError: http://%(server)s/dummy/blocklist// is not a valid URL.
+JavaScript error: resource://activity-stream/lib/PersonalityProvider/PersonalityProvider.jsm, line 84: TypeError: http://%(server)s/dummy/blocklist// is not a valid URL.
+JavaScript error: resource://activity-stream/lib/PersonalityProvider/PersonalityProvider.jsm, line 84: TypeError: http://%(server)s/dummy/blocklist// is not a valid URL.
+JavaScript error: resource://activity-stream/lib/PersonalityProvider/PersonalityProvider.jsm, line 84: TypeError: http://%(server)s/dummy/blocklist// is not a valid URL.
+JavaScript error: resource://activity-stream/lib/PersonalityProvider/PersonalityProvider.jsm, line 84: TypeError: http://%(server)s/dummy/blocklist// is not a valid URL.
+JavaScript error: resource://activity-stream/lib/PersonalityProvider/PersonalityProvider.jsm, line 84: TypeError: http://%(server)s/dummy/blocklist// is not a valid URL.
+JavaScript error: resource://activity-stream/lib/PersonalityProvider/PersonalityProvider.jsm, line 84: TypeError: http://%(server)s/dummy/blocklist// is not a valid URL.
+JavaScript error: resource://activity-stream/lib/PersonalityProvider/PersonalityProvider.jsm, line 84: TypeError: http://%(server)s/dummy/blocklist// is not a valid URL.
+JavaScript error: resource://activity-stream/lib/PersonalityProvider/PersonalityProvider.jsm, line 84: TypeError: http://%(server)s/dummy/blocklist// is not a valid URL.
+JavaScript error: resource://activity-stream/lib/PersonalityProvider/PersonalityProvider.jsm, line 84: TypeError: http://%(server)s/dummy/blocklist// is not a valid URL.
+JavaScript error: resource://activity-stream/lib/PersonalityProvider/PersonalityProvider.jsm, line 84: TypeError: http://%(server)s/dummy/blocklist// is not a valid URL.
+JavaScript error: resource://activity-stream/lib/PersonalityProvider/PersonalityProvider.jsm, line 84: TypeError: http://%(server)s/dummy/blocklist// is not a valid URL.
+JavaScript error: resource://activity-stream/lib/PersonalityProvider/PersonalityProvider.jsm, line 84: TypeError: http://%(server)s/dummy/blocklist// is not a valid URL.
+1620591900322	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileXsOYo5"
+1620591900551	Marionette	INFO	Marionette enabled
+JavaScript error: https://www.ebay.com/mye/myebay/watchlist, line 91: ReferenceError: __RAPTOR_PUBSUB is not defined
+JavaScript error: https://ir.ebaystatic.com/rs/v/10341xh50yz21mhhydueu4m5wad.js, line 1: ReferenceError: raptor is not defined
+JavaScript error: https://ir.ebaystatic.com/rs/v/s0hteylevy4bpkd12dvkd4yi5ms.js, line 41: TypeError: _plsUBTTQ is undefined
+JavaScript error: https://ir.ebaystatic.com/rs/v/rklixopfgi2d5mj0alnxg3vzzix.js, line 20: ReferenceError: jQuery is not defined
+JavaScript error: https://www.ebay.com/mye/myebay/watchlist, line 134: ReferenceError: GH is not defined
+JavaScript error: https://www.ebay.com/mye/myebay/watchlist, line 135: TypeError: Node.appendChild: Argument 1 is not an object.
+1620591902007	Marionette	INFO	Listening on port 44541
+1620591902084	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://activity-stream/lib/PersonalityProvider/PersonalityProvider.jsm, line 84: TypeError: http://%(server)s/dummy/blocklist// is not a valid URL.
+JavaScript error: https://www.ebay.com/mye/myebay/watchlist?custom_list_id=WATCH_LIST&page=1&items_per_page=10, line 91: ReferenceError: __RAPTOR_PUBSUB is not defined
+JavaScript error: https://ir.ebaystatic.com/rs/v/10341xh50yz21mhhydueu4m5wad.js, line 1: ReferenceError: raptor is not defined
+JavaScript error: https://ir.ebaystatic.com/rs/v/s0hteylevy4bpkd12dvkd4yi5ms.js, line 41: TypeError: _plsUBTTQ is undefined
+JavaScript error: https://ir.ebaystatic.com/rs/v/rklixopfgi2d5mj0alnxg3vzzix.js, line 20: ReferenceError: jQuery is not defined
+JavaScript error: https://www.ebay.com/mye/myebay/watchlist?custom_list_id=WATCH_LIST&page=1&items_per_page=10, line 134: ReferenceError: GH is not defined
+JavaScript error: https://www.ebay.com/mye/myebay/watchlist?custom_list_id=WATCH_LIST&page=1&items_per_page=10, line 135: TypeError: Node.appendChild: Argument 1 is not an object.
+JavaScript error: , line 0: InvalidStateError: An attempt was made to use an object that is not, or is no longer, usable
+JavaScript error: https://ir.ebaystatic.com/rs/c/scandal/ScandalJS-2.1.26.min.js, line 1: ReferenceError: GH is not defined
+JavaScript error: https://ir.ebaystatic.com/rs/c/scandal/ScandalJS-2.1.26.min.js, line 1: ReferenceError: GH is not defined
+JavaScript error: https://ir.ebaystatic.com/rs/c/scandal/ScandalJS-2.1.26.min.js, line 1: ReferenceError: GH is not defined
+JavaScript error: https://ir.ebaystatic.com/rs/c/scandal/ScandalJS-2.1.26.min.js, line 1: ReferenceError: GH is not defined
+JavaScript error: https://ir.ebaystatic.com/rs/c/scandal/ScandalJS-2.1.26.min.js, line 1: ReferenceError: GH is not defined
+JavaScript error: https://ir.ebaystatic.com/rs/c/scandal/ScandalJS-2.1.26.min.js, line 1: ReferenceError: GH is not defined
+JavaScript error: https://ir.ebaystatic.com/rs/c/scandal/ScandalJS-2.1.26.min.js, line 1: ReferenceError: GH is not defined
+JavaScript error: https://ir.ebaystatic.com/rs/c/scandal/ScandalJS-2.1.26.min.js, line 1: ReferenceError: GH is not defined
+JavaScript error: https://ir.ebaystatic.com/rs/c/scandal/ScandalJS-2.1.26.min.js, line 1: ReferenceError: GH is not defined
+JavaScript error: https://ir.ebaystatic.com/rs/c/scandal/ScandalJS-2.1.26.min.js, line 1: ReferenceError: GH is not defined
+1620592130497	Marionette	INFO	Stopped listening on port 46671
+1620592130633	Marionette	INFO	Stopped listening on port 44541
+1620592136510	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileLoj1QS"
+1620592136757	Marionette	INFO	Marionette enabled
+JavaScript error: https://www.ebay.com/mye/myebay/watchlist, line 91: ReferenceError: __RAPTOR_PUBSUB is not defined
+JavaScript error: https://ir.ebaystatic.com/rs/v/10341xh50yz21mhhydueu4m5wad.js, line 1: ReferenceError: raptor is not defined
+JavaScript error: https://ir.ebaystatic.com/rs/v/s0hteylevy4bpkd12dvkd4yi5ms.js, line 41: TypeError: _plsUBTTQ is undefined
+JavaScript error: https://ir.ebaystatic.com/rs/v/rklixopfgi2d5mj0alnxg3vzzix.js, line 20: ReferenceError: jQuery is not defined
+JavaScript error: https://www.ebay.com/mye/myebay/watchlist, line 134: ReferenceError: GH is not defined
+JavaScript error: https://www.ebay.com/mye/myebay/watchlist, line 135: TypeError: Node.appendChild: Argument 1 is not an object.
+1620592138169	Marionette	INFO	Listening on port 33443
+1620592138276	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://activity-stream/lib/PersonalityProvider/PersonalityProvider.jsm, line 84: TypeError: http://%(server)s/dummy/blocklist// is not a valid URL.
+JavaScript error: https://www.ebay.com/mye/myebay/watchlist?custom_list_id=WATCH_LIST&page=1&items_per_page=10, line 91: ReferenceError: __RAPTOR_PUBSUB is not defined
+JavaScript error: https://ir.ebaystatic.com/rs/v/10341xh50yz21mhhydueu4m5wad.js, line 1: ReferenceError: raptor is not defined
+JavaScript error: https://ir.ebaystatic.com/rs/v/s0hteylevy4bpkd12dvkd4yi5ms.js, line 41: TypeError: _plsUBTTQ is undefined
+JavaScript error: https://ir.ebaystatic.com/rs/v/rklixopfgi2d5mj0alnxg3vzzix.js, line 20: ReferenceError: jQuery is not defined
+JavaScript error: https://www.ebay.com/mye/myebay/watchlist?custom_list_id=WATCH_LIST&page=1&items_per_page=10, line 134: ReferenceError: GH is not defined
+JavaScript error: https://www.ebay.com/mye/myebay/watchlist?custom_list_id=WATCH_LIST&page=1&items_per_page=10, line 135: TypeError: Node.appendChild: Argument 1 is not an object.
+JavaScript error: , line 0: InvalidStateError: An attempt was made to use an object that is not, or is no longer, usable
+JavaScript error: https://ir.ebaystatic.com/rs/c/scandal/ScandalJS-2.1.26.min.js, line 1: ReferenceError: GH is not defined
+JavaScript error: https://ir.ebaystatic.com/rs/c/scandal/ScandalJS-2.1.26.min.js, line 1: ReferenceError: GH is not defined
+JavaScript error: https://ir.ebaystatic.com/rs/c/scandal/ScandalJS-2.1.26.min.js, line 1: ReferenceError: GH is not defined
+JavaScript error: https://ir.ebaystatic.com/rs/c/scandal/ScandalJS-2.1.26.min.js, line 1: ReferenceError: GH is not defined
+JavaScript error: https://ir.ebaystatic.com/rs/c/scandal/ScandalJS-2.1.26.min.js, line 1: ReferenceError: GH is not defined
+JavaScript error: https://ir.ebaystatic.com/rs/c/scandal/ScandalJS-2.1.26.min.js, line 1: ReferenceError: GH is not defined
+JavaScript error: https://ir.ebaystatic.com/rs/c/scandal/ScandalJS-2.1.26.min.js, line 1: ReferenceError: GH is not defined
+JavaScript error: https://ir.ebaystatic.com/rs/c/scandal/ScandalJS-2.1.26.min.js, line 1: ReferenceError: GH is not defined
+JavaScript error: https://ir.ebaystatic.com/rs/c/scandal/ScandalJS-2.1.26.min.js, line 1: ReferenceError: GH is not defined
+JavaScript error: https://ir.ebaystatic.com/rs/c/scandal/ScandalJS-2.1.26.min.js, line 1: ReferenceError: GH is not defined
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1620592193969	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileBU9IAo"
+1620592194380	Marionette	INFO	Marionette enabled
+JavaScript error: https://www.ebay.com/mye/myebay/watchlist, line 91: ReferenceError: __RAPTOR_PUBSUB is not defined
+JavaScript error: https://ir.ebaystatic.com/rs/v/10341xh50yz21mhhydueu4m5wad.js, line 1: ReferenceError: raptor is not defined
+JavaScript error: https://ir.ebaystatic.com/rs/v/s0hteylevy4bpkd12dvkd4yi5ms.js, line 41: TypeError: _plsUBTTQ is undefined
+JavaScript error: https://ir.ebaystatic.com/rs/v/rklixopfgi2d5mj0alnxg3vzzix.js, line 20: ReferenceError: jQuery is not defined
+JavaScript error: https://www.ebay.com/mye/myebay/watchlist, line 134: ReferenceError: GH is not defined
+JavaScript error: https://www.ebay.com/mye/myebay/watchlist, line 135: TypeError: Node.appendChild: Argument 1 is not an object.
+1620592195914	Marionette	INFO	Listening on port 35881
+1620592196067	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://activity-stream/lib/PersonalityProvider/PersonalityProvider.jsm, line 84: TypeError: http://%(server)s/dummy/blocklist// is not a valid URL.
+JavaScript error: https://www.ebay.com/mye/myebay/watchlist?custom_list_id=WATCH_LIST&page=1&items_per_page=10, line 91: ReferenceError: __RAPTOR_PUBSUB is not defined
+JavaScript error: https://ir.ebaystatic.com/rs/v/10341xh50yz21mhhydueu4m5wad.js, line 1: ReferenceError: raptor is not defined
+JavaScript error: https://ir.ebaystatic.com/rs/v/s0hteylevy4bpkd12dvkd4yi5ms.js, line 41: TypeError: _plsUBTTQ is undefined
+JavaScript error: https://ir.ebaystatic.com/rs/v/rklixopfgi2d5mj0alnxg3vzzix.js, line 20: ReferenceError: jQuery is not defined
+JavaScript error: https://www.ebay.com/mye/myebay/watchlist?custom_list_id=WATCH_LIST&page=1&items_per_page=10, line 134: ReferenceError: GH is not defined
+JavaScript error: https://www.ebay.com/mye/myebay/watchlist?custom_list_id=WATCH_LIST&page=1&items_per_page=10, line 135: TypeError: Node.appendChild: Argument 1 is not an object.
+JavaScript error: , line 0: InvalidStateError: An attempt was made to use an object that is not, or is no longer, usable
+1620592199714	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+JavaScript error: https://ir.ebaystatic.com/rs/c/scandal/ScandalJS-2.1.26.min.js, line 1: ReferenceError: GH is not defined
+JavaScript error: https://ir.ebaystatic.com/rs/c/scandal/ScandalJS-2.1.26.min.js, line 1: ReferenceError: GH is not defined
+JavaScript error: https://ir.ebaystatic.com/rs/c/scandal/ScandalJS-2.1.26.min.js, line 1: ReferenceError: GH is not defined
+JavaScript error: https://ir.ebaystatic.com/rs/c/scandal/ScandalJS-2.1.26.min.js, line 1: ReferenceError: GH is not defined
+JavaScript error: https://ir.ebaystatic.com/rs/c/scandal/ScandalJS-2.1.26.min.js, line 1: ReferenceError: GH is not defined
+JavaScript error: https://ir.ebaystatic.com/rs/c/scandal/ScandalJS-2.1.26.min.js, line 1: ReferenceError: GH is not defined
+JavaScript error: https://ir.ebaystatic.com/rs/c/scandal/ScandalJS-2.1.26.min.js, line 1: ReferenceError: GH is not defined
+JavaScript error: https://ir.ebaystatic.com/rs/c/scandal/ScandalJS-2.1.26.min.js, line 1: ReferenceError: GH is not defined
+JavaScript error: https://ir.ebaystatic.com/rs/c/scandal/ScandalJS-2.1.26.min.js, line 1: ReferenceError: GH is not defined
+JavaScript error: https://ir.ebaystatic.com/rs/c/scandal/ScandalJS-2.1.26.min.js, line 1: ReferenceError: GH is not defined
+JavaScript error: resource://activity-stream/lib/PersonalityProvider/PersonalityProvider.jsm, line 84: TypeError: http://%(server)s/dummy/blocklist// is not a valid URL.
+JavaScript error: , line 0: uncaught exception: undefined
+JavaScript error: https://ir.ebaystatic.com/rs/c/logout-confirm-LOcKISxY.js, line 327: Error: Cannot find module "ebay/legacy/utils/Uri"
+1620592844957	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1620592923223	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+JavaScript error: https://www.ebay.com/mye/myebay/watchlist, line 91: ReferenceError: __RAPTOR_PUBSUB is not defined
+JavaScript error: https://ir.ebaystatic.com/rs/v/10341xh50yz21mhhydueu4m5wad.js, line 1: ReferenceError: raptor is not defined
+JavaScript error: https://ir.ebaystatic.com/rs/v/s0hteylevy4bpkd12dvkd4yi5ms.js, line 41: TypeError: _plsUBTTQ is undefined
+JavaScript error: https://ir.ebaystatic.com/rs/v/rklixopfgi2d5mj0alnxg3vzzix.js, line 20: ReferenceError: jQuery is not defined
+JavaScript error: https://www.ebay.com/mye/myebay/watchlist, line 134: ReferenceError: GH is not defined
+JavaScript error: https://www.ebay.com/mye/myebay/watchlist, line 135: TypeError: Node.appendChild: Argument 1 is not an object.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1620592943128	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile7MFefC"
+1620592943360	Marionette	INFO	Marionette enabled
+JavaScript error: resource://activity-stream/lib/PersonalityProvider/PersonalityProvider.jsm, line 84: TypeError: http://%(server)s/dummy/blocklist// is not a valid URL.
+1620592944323	Marionette	INFO	Listening on port 42573
+1620592944377	Marionette	WARN	TLS certificate errors will be ignored for this session
+1620593051986	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+JavaScript error: https://www.ebay.com/mye/myebay/watchlist?custom_list_id=WATCH_LIST&page=1&items_per_page=10, line 91: ReferenceError: __RAPTOR_PUBSUB is not defined
+JavaScript error: https://ir.ebaystatic.com/rs/v/10341xh50yz21mhhydueu4m5wad.js, line 1: ReferenceError: raptor is not defined
+JavaScript error: https://ir.ebaystatic.com/rs/v/s0hteylevy4bpkd12dvkd4yi5ms.js, line 41: TypeError: _plsUBTTQ is undefined
+JavaScript error: https://ir.ebaystatic.com/rs/v/rklixopfgi2d5mj0alnxg3vzzix.js, line 20: ReferenceError: jQuery is not defined
+JavaScript error: https://www.ebay.com/mye/myebay/watchlist?custom_list_id=WATCH_LIST&page=1&items_per_page=10, line 134: ReferenceError: GH is not defined
+JavaScript error: https://www.ebay.com/mye/myebay/watchlist?custom_list_id=WATCH_LIST&page=1&items_per_page=10, line 135: TypeError: Node.appendChild: Argument 1 is not an object.
+JavaScript error: https://ir.ebaystatic.com/rs/c/scandal/ScandalJS-2.1.26.min.js, line 1: ReferenceError: GH is not defined
+JavaScript error: https://ir.ebaystatic.com/rs/c/scandal/ScandalJS-2.1.26.min.js, line 1: ReferenceError: GH is not defined
+JavaScript error: https://ir.ebaystatic.com/rs/c/scandal/ScandalJS-2.1.26.min.js, line 1: ReferenceError: GH is not defined
+JavaScript error: https://ir.ebaystatic.com/rs/c/scandal/ScandalJS-2.1.26.min.js, line 1: ReferenceError: GH is not defined
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1620593108292	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofilegqzTPV"
+1620593108551	Marionette	INFO	Marionette enabled
+JavaScript error: resource://activity-stream/lib/PersonalityProvider/PersonalityProvider.jsm, line 84: TypeError: http://%(server)s/dummy/blocklist// is not a valid URL.
+1620593109519	Marionette	INFO	Listening on port 44413
+1620593109539	Marionette	WARN	TLS certificate errors will be ignored for this session
+1620593113414	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1620593262785	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile2y2I5k"
+1620593263022	Marionette	INFO	Marionette enabled
+JavaScript error: resource://activity-stream/lib/PersonalityProvider/PersonalityProvider.jsm, line 84: TypeError: http://%(server)s/dummy/blocklist// is not a valid URL.
+1620593264188	Marionette	INFO	Listening on port 34579
+1620593264234	Marionette	WARN	TLS certificate errors will be ignored for this session
+1620593268097	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1620593279919	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+JavaScript error: https://www.ebay.com/mye/myebay/watchlist?custom_list_id=WATCH_LIST&page=1&items_per_page=10, line 91: ReferenceError: __RAPTOR_PUBSUB is not defined
+JavaScript error: https://ir.ebaystatic.com/rs/v/10341xh50yz21mhhydueu4m5wad.js, line 1: ReferenceError: raptor is not defined
+JavaScript error: https://ir.ebaystatic.com/rs/v/s0hteylevy4bpkd12dvkd4yi5ms.js, line 41: TypeError: _plsUBTTQ is undefined
+JavaScript error: https://ir.ebaystatic.com/rs/v/rklixopfgi2d5mj0alnxg3vzzix.js, line 20: ReferenceError: jQuery is not defined
+JavaScript error: https://www.ebay.com/mye/myebay/watchlist?custom_list_id=WATCH_LIST&page=1&items_per_page=10, line 134: ReferenceError: GH is not defined
+JavaScript error: https://www.ebay.com/mye/myebay/watchlist?custom_list_id=WATCH_LIST&page=1&items_per_page=10, line 135: TypeError: Node.appendChild: Argument 1 is not an object.
+JavaScript error: https://ir.ebaystatic.com/rs/c/scandal/ScandalJS-2.1.26.min.js, line 1: ReferenceError: GH is not defined
+JavaScript error: https://ir.ebaystatic.com/rs/c/scandal/ScandalJS-2.1.26.min.js, line 1: ReferenceError: GH is not defined
+JavaScript error: https://ir.ebaystatic.com/rs/c/scandal/ScandalJS-2.1.26.min.js, line 1: ReferenceError: GH is not defined
+JavaScript error: https://ir.ebaystatic.com/rs/c/scandal/ScandalJS-2.1.26.min.js, line 1: ReferenceError: GH is not defined
+JavaScript error: https://ir.ebaystatic.com/rs/c/scandal/ScandalJS-2.1.26.min.js, line 1: ReferenceError: GH is not defined
+JavaScript error: https://ir.ebaystatic.com/rs/c/scandal/ScandalJS-2.1.26.min.js, line 1: ReferenceError: GH is not defined
+JavaScript error: https://ir.ebaystatic.com/rs/c/scandal/ScandalJS-2.1.26.min.js, line 1: ReferenceError: GH is not defined
+JavaScript error: https://ir.ebaystatic.com/rs/c/scandal/ScandalJS-2.1.26.min.js, line 1: ReferenceError: GH is not defined
+JavaScript error: https://ir.ebaystatic.com/rs/c/scandal/ScandalJS-2.1.26.min.js, line 1: ReferenceError: GH is not defined
+JavaScript error: https://ir.ebaystatic.com/rs/c/scandal/ScandalJS-2.1.26.min.js, line 1: ReferenceError: GH is not defined
+JavaScript error: resource://activity-stream/lib/PersonalityProvider/PersonalityProvider.jsm, line 84: TypeError: http://%(server)s/dummy/blocklist// is not a valid URL.
+JavaScript error: resource://activity-stream/lib/PersonalityProvider/PersonalityProvider.jsm, line 84: TypeError: http://%(server)s/dummy/blocklist// is not a valid URL.
+JavaScript error: resource://activity-stream/lib/PersonalityProvider/PersonalityProvider.jsm, line 84: TypeError: http://%(server)s/dummy/blocklist// is not a valid URL.
+JavaScript error: resource://activity-stream/lib/PersonalityProvider/PersonalityProvider.jsm, line 84: TypeError: http://%(server)s/dummy/blocklist// is not a valid URL.
+JavaScript error: resource://activity-stream/lib/PersonalityProvider/PersonalityProvider.jsm, line 84: TypeError: http://%(server)s/dummy/blocklist// is not a valid URL.
+JavaScript error: resource://activity-stream/lib/PersonalityProvider/PersonalityProvider.jsm, line 84: TypeError: http://%(server)s/dummy/blocklist// is not a valid URL.
+JavaScript error: resource://activity-stream/lib/PersonalityProvider/PersonalityProvider.jsm, line 84: TypeError: http://%(server)s/dummy/blocklist// is not a valid URL.
+1620839288745	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofileDYkjWO"
+1620839289024	Marionette	INFO	Marionette enabled
+1620839290079	Marionette	INFO	Listening on port 44565
+1620839290183	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://activity-stream/lib/PersonalityProvider/PersonalityProvider.jsm, line 84: TypeError: http://%(server)s/dummy/blocklist// is not a valid URL.
+1620839294384	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'uninitialized'.
+1620839358187	Marionette	INFO	Stopped listening on port 44565
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+JavaScript error: resource://activity-stream/lib/PersonalityProvider/PersonalityProvider.jsm, line 84: TypeError: http://%(server)s/dummy/blocklist// is not a valid URL.

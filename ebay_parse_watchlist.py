@@ -3,12 +3,17 @@ import datefinder
 from csv import writer, reader
 import pandas as pd
 from ebay_watchlist_class import *
-fname = "current_html"
 
 
-fp = get_html_file()
+html = get_html_file()
 
-myWatchlist = EbayWatchlist(fp, "847j.csv")
+
+
+myWatchlist = EbayWatchlist(html, "847j.csv")
+
+for item in myWatchlist.listings:
+    master_list.append(item)
+
 
 old_watchlist_entries_list = myWatchlist.get_csv_file_listings()
 old_set = set()
@@ -23,12 +28,13 @@ for listing in current_watchlist_enties:
 
 difference = new_set.difference(old_set)
 
-update_status = ""
-for title, ended in difference:
-    update_status += (title + " has ended\n")
+if False:
+    update_status = ""
+    for title, ended in difference:
+        update_status += (title + " has ended\n")
 
-myWatchlist.send_email_update(update_status)
-myWatchlist.output_current_watchlist()
+    myWatchlist.send_email_update(update_status)
+    myWatchlist.output_current_watchlist()
 
 
 
