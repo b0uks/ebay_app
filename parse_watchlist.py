@@ -62,12 +62,14 @@ def main():
     html = get_html_file( files[0] )
     myWatchlist = EbayWatchlist( html, csv_name )
     old_list = get_current_csv_status( myWatchlist )
-    old_set = create_old_set(old_list)
-    
+    if old_list:
+        old_set = create_old_set(old_list)
+    else:
+        old_set = set()
     
     reset_csv( csv_name )
-    time.sleep(2)
-    print(files)
+    # time.sleep(2)
+    # print(files)
     
     parse_all_pages(myWatchlist, files)
 
